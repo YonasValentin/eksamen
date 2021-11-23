@@ -1,0 +1,21 @@
+/* Color Theme Swatches in Hex */
+$eksamen-1-hex: #BF702A;
+$eksamen-2-hex: #736558;
+$eksamen-3-hex: #BFA08E;
+$eksamen-4-hex: #261A18;
+$eksamen-5-hex: #F2F2F2;
+
+/* Color Theme Swatches in RGBA */
+$eksamen-1-rgba: rgba(191,112,42, 1);
+$eksamen-2-rgba: rgba(115,101,88, 1);
+$eksamen-3-rgba: rgba(191,160,142, 1);
+$eksamen-4-rgba: rgba(38,26,24, 1);
+$eksamen-5-rgba: rgba(242,242,242, 1);
+
+.contact-form {
+    input {
+        border: none;
+        outline: none;
+        width: 100%;
+    }
+}
