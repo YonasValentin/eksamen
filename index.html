@@ -9,69 +9,80 @@
   </head>
   <body>
     <div class="contact-form">
-      <form action="" method="post">
-        <fieldset>
-          <legend>Contact form</legend>
-          <dl>
-            <dt><label for="name">Name:</label></dt>
-            <dd>
-              <input
-                type="text"
-                name="name"
-                id="contact__name"
-                placeholder="Please enter your name"
-              />
-            </dd>
-          </dl>
-
-          <dl>
-            <dt><label for="email">E-mail:</label></dt>
-            <dd>
-              <input
-                type="text"
-                name="email"
-                id="contact__email"
-                placeholder="Please enter your e-mail address"
-              />
-            </dd>
-          </dl>
-
-          <dl>
-            <dt><label for="phone">Phone:</label></dt>
-            <dd>
-              <input
-                type="text"
-                name="phone"
-                id="contact__phone"
-                placeholder="Please enter your phone number"
-              />
-            </dd>
-          </dl>
-
-          <dl>
-            <dt><label for="phone">Subject:</label></dt>
-            <dd>
-              <input
-                type="text"
-                name="phone"
-                id="contact__subject"
-                placeholder="Please enter your subject"
-              />
-            </dd>
-          </dl>
-
-          <dl>
-            <dt><label for="phone">Message:</label></dt>
-            <dd>
-              <textarea
-                name="message"
-                id="contact__message"
-                placeholder="Please enter your message"
-              ></textarea>
-            </dd>
-          </dl>
-        </fieldset>
+      <form action="">
+        <!-- contact form header -->
+        <dl>
+          <dt>Contact us</dt>
+          <dd id="contact-form-error contact-form-success"></dd>
+        </dl>
+        <!-- input for name -->
+        <dl>
+          <dt><label for="name">Name:</label></dt>
+          <dd>
+            <input
+              type="text"
+              name="name"
+              id="contact-name"
+              placeholder="Please enter your name"
+            />
+          </dd>
+          <dd id="contact-name-error"></dd>
+        </dl>
+        <!-- input for email -->
+        <dl>
+          <dt><label for="email">E-mail:</label></dt>
+          <dd>
+            <input
+              type="text"
+              name="email"
+              id="contact-email"
+              placeholder="Please enter your e-mail"
+            />
+          </dd>
+          <dd id="contact-email-error"></dd>
+        </dl>
+        <!-- input for phone -->
+        <dl>
+          <dt><label for="phone">Phone:</label></dt>
+          <dd>
+            <input
+              type="text"
+              name="phone"
+              id="contact-phone"
+              placeholder="Please enter your phone number"
+            />
+          </dd>
+          <dd id="contact-phone-error"></dd>
+        </dl>
+        <!-- input for subject -->
+        <dl>
+          <dt><label for="subject">Subject:</label></dt>
+          <dd>
+            <input
+              type="text"
+              name="subject"
+              id="contact-subject"
+              placeholder="Please enter your subject"
+            />
+          </dd>
+          <dd id="contact-subject-error"></dd>
+        </dl>
+        <!-- input for message -->
+        <dl>
+          <dt><label for="message">Message:</label></dt>
+          <dd>
+            <textarea
+              name="message"
+              id="contact-message"
+              placeholder="Please enter your message"
+            ></textarea>
+          </dd>
+          <dd id="contact-message-error"></dd>
+        </dl>
+        <!-- button submit -->
+        <button id="contact-submit" type="submit">Send</button>
       </form>
     </div>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>

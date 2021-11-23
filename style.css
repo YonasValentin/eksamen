@@ -11,4 +11,9 @@
   outline: none;
   resize: none;
 }
+
+.contact-form button {
+  border: none;
+  background-color: transparent;
+}
 /*# sourceMappingURL=style.css.map */
