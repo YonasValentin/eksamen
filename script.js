@@ -1,4 +1,5 @@
 // error id
+const contactFormError = document.getElementById('contact-form-error');
 const nameInputError = document.getElementById('contact-name-error');
 const emailInputError = document.getElementById('contact-email-error');
 const phoneInputError = document.getElementById('contact-phone-error');
@@ -22,6 +23,11 @@ function validateFormData(event) {
     const messageInput = formData.get('message').trim();
 
     // empty name validation
+    if (!nameInput || !emailInput || !phoneInput || !subjectInput || !messageInput) {
+        contactFormError.innerText = 'Please fill out all required fields';
+    } else {
+        contactFormError.innerText = '';
+    }
     if (!nameInput) {
         nameInputError.innerText = 'Please enter your name';
     } else {
