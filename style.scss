@@ -27,7 +27,7 @@ $eksamen-5-rgba: rgba(242,242,242, 1);
         border: none;
         background-color: transparent;
     }
-    #contact-name-error {
+    #contact-name-error, #contact-email-error, #contact-phone-error, #contact-subject-error, #contact-message-error {
         color: red;
     }
 }
