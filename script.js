@@ -3,7 +3,7 @@ const nameInputError = document.getElementById('contact-name-error');
 const emailInputError = document.getElementById('contact-email-error');
 const phoneInputError = document.getElementById('contact-phone-error');
 const subjectInputError = document.getElementById('contact-subject-error');
-const bodyInputError = document.getElementById('contact-message-error');
+const messageInputError = document.getElementById('contact-message-error');
 
 // get form element
 const contactForm = document.getElementById('contact-form');
@@ -48,12 +48,16 @@ function validateFormData(event) {
     // empty subject validation
     if (!subjectInput) {
         subjectInputError.innerText = 'Please enter your subject';
+    } else if (subjectInput.length <= 10) {
+        subjectInputError.innerText = 'Your subject must contain at least 10 characters';
     } else {
         subjectInputError. innerText = '';
     }
     // empty message validation
     if (!messageInput) {
         messageInputError.innerText = 'Please enter your message';
+    } else if (messageInput.length <= 30) {
+        messageInputError.innerText = 'Your message must contain at least 30 characters';
     } else {
         messageInputError.innerText = '';
     }
