@@ -1,5 +1,9 @@
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
+.contact-form-container label span {
+  color: red;
+}
+
 .contact-form-container input {
   border: none;
   outline: none;

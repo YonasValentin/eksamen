@@ -13,6 +13,11 @@ $eksamen-4-rgba: rgba(38,26,24, 1);
 $eksamen-5-rgba: rgba(242,242,242, 1);
 
 .contact-form-container {
+    label {
+        span {
+            color: red;
+        }
+    }
     input {
         border: none;
         outline: none;
