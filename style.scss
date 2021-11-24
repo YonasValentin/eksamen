@@ -12,7 +12,7 @@ $eksamen-3-rgba: rgba(191,160,142, 1);
 $eksamen-4-rgba: rgba(38,26,24, 1);
 $eksamen-5-rgba: rgba(242,242,242, 1);
 
-.contact-form {
+.contact-form-container {
     input {
         border: none;
         outline: none;
@@ -26,6 +26,9 @@ $eksamen-5-rgba: rgba(242,242,242, 1);
     button {
         border: none;
         background-color: transparent;
+    }
+    #contact-name-error {
+        color: red;
     }
 }
 

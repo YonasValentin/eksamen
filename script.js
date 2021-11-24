@@ -1,13 +1,30 @@
-document.getElementById('contact-submit').addEventListener('click', function (event) {
+// error id
+const nameInputError = document.getElementById('contact-name-error');
+const emailInputError = document.getElementById('contact-email-error');
+const phoneInputError = document.getElementById('contact-phone-error');
+const subjectInputError = document.getElementById('contact-subject-error');
+const bodyInputError = document.getElementById('contact-message-error');
+
+// get form element
+const contactForm = document.getElementById('contact-form');
+// listen for form submit event
+contactForm.addEventListener('submit', saveFormData);
+
+function saveFormData(event) {
     event.preventDefault();
 
-    let contactName = document.getElementById('contact-name');
-    let contactNameError = document.getElementById('contact-name-error');
+    const formData = new FormData(event.target);
 
-    if (contactName.value === '') {
-        return contactNameError.innerText = 'Please enter a contact name';
-    } else {
-        return contactNameError.innerText = '';
-    } // hvis jeg indsætter endnu en if statement her, så bliver korden aldrig læst
+    const nameInput = formData.get('name').trim();
+    const emailInput = formData.get('email').trim();
+    const phoneInput = formData.get('phone').trim();
+    const subjectInput = formData.get('subject').trim();
+    const messageInput = formData.get('message').trim();
+
+    if (!nameInput) {
+        nameInputError.innerText = 'Please enter your name';
+    } else if (nameInput) {
+        nameInputError.innerText = '';
+        nameInputError.classList.remove('contact-name-error');
     }
-);
+}

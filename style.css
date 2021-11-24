@@ -1,19 +1,23 @@
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
-.contact-form input {
+.contact-form-container input {
   border: none;
   outline: none;
   width: 100%;
 }
 
-.contact-form textarea {
+.contact-form-container textarea {
   border: none;
   outline: none;
   resize: none;
 }
 
-.contact-form button {
+.contact-form-container button {
   border: none;
   background-color: transparent;
+}
+
+.contact-form-container #contact-name-error {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
