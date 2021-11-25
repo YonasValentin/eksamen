@@ -67,4 +67,16 @@ function validateFormData(event) {
     } else {
         messageInputError.innerText = '';
     }
+    if (contactFormError === '') {
+        let xhr = new XMLHttpRequest();
+        xhr.open("POST", "contact-form.php", true);
+        xhr.onload = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                let response = xhr.response;
+                console.log(response);
+            }
+        }
+        let formData = new FormData(contactForm);
+        xhr.send(formData);
+    }
 }
