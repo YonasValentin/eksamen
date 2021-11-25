@@ -46,7 +46,7 @@ function validateFormData(event) {
     if (!phoneInput) {
         phoneInputError.innerText = 'Please enter your phone number';
         // phone number validation
-    } else if (phoneInput.toString().length <= 8 && !phoneInput.toString().match(/^[0-9]+$/)) {
+    } else if (phoneInput.toString().length <= 8 || !phoneInput.toString().match(/^[0-9]+$/)) {
         phoneInputError.innerText = 'Please enter a valid phone number';
     } else {
         phoneInputError. innerText = '';
