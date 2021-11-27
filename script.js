@@ -56,7 +56,7 @@ function validateFormData(event) {
         emailInputError.innerText = 'Please enter a valid email address';
         // if email address is entered and valid, then remove error message
     } else {
-        emailInputError. innerText = '';
+        emailInputError.innerText = '';
     }
     // check if empty phone input field
     if (!phoneInput) {
