@@ -14,7 +14,7 @@ contactForm.addEventListener('submit', validateFormData);
 function validateFormData(event) {
     event.preventDefault();
 
-    const formData = new FormData(event.target);
+    const formData = new FormData(this);
 
     const nameInput = formData.get('name').trim();
     const emailInput = formData.get('email').trim();
@@ -65,18 +65,15 @@ function validateFormData(event) {
     } else if (messageInput.length <= 30) {
         messageInputError.innerText = 'Your message must contain at least 30 characters';
     } else {
-        messageInputError.innerText = '';
-    }
-    if (contactFormError === '') {
-        let xhr = new XMLHttpRequest();
-        xhr.open("POST", "contact-form.php", true);
-        xhr.onload = function() {
-            if (xhr.readyState == 4 && xhr.status == 200) {
-                let response = xhr.response;
-                console.log(response);
-            }
-        }
-        let formData = new FormData(contactForm);
-        xhr.send(formData);
+        fetch('contact-form.php', {
+            method:'POST',
+            body: formData,
+        }).then(function(response) {
+            return response.text();
+        }).then(function(text) {
+            console.log(text);
+        }).catch(function(error) {
+            console.log(error);
+        })
     }
 }
