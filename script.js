@@ -62,7 +62,7 @@ function validateFormData(event) {
     if (!phoneInput) {
         phoneInputError.innerText = 'Please enter your phone number';
         // check if phone number is between less then 8 and 11
-    } else if (phoneInput.length < 8 || phoneInput.length >11) {
+    } else if (!phoneInput.match(/^[+]*[45]{2}[\d]{8}|^[0045]{4}[\d]{8}|^\d{8}$/)) {
         phoneInputError.innerText = 'Please enter a valid phone number';
         // if phone number is entered and valid, then remove error message
     } else {
