@@ -71,7 +71,7 @@ nav ul li a {
   background-color: transparent;
 }
 
-.contact-form-container #contact-form-error, .contact-form-container #contact-name-error, .contact-form-container #contact-email-error, .contact-form-container #contact-phone-error, .contact-form-container #contact-subject-error, .contact-form-container #contact-message-error {
+.contact-form-container #contact-form-error, .contact-form-container #contact-name-error, .contact-form-container #contact-email-error, .contact-form-container #contact-phone-error, .contact-form-container #contact-subject-error, .contact-form-container #contact-message-error, .contact-form-container #contact-date-error, .contact-form-container #contact-time-error {
   color: red;
 }
 /*# sourceMappingURL=style.css.map */

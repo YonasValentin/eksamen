@@ -5,6 +5,8 @@ const emailInputError = document.getElementById('contact-email-error');
 const phoneInputError = document.getElementById('contact-phone-error');
 const subjectInputError = document.getElementById('contact-subject-error');
 const messageInputError = document.getElementById('contact-message-error');
+const dateInputError = document.getElementById('contact-date-error');
+const timeInputError = document.getElementById('contact-time-error');
 
 // get form element
 const contactForm = document.getElementById('contact-form');
@@ -22,9 +24,11 @@ function validateFormData(event) {
     const phoneInput = formData.get('phone').trim();
     const subjectInput = formData.get('subject').trim();
     const messageInput = formData.get('message').trim();
+    const dateInput = formData.get('date');
+    const timeInput = formData.get('time');
 
     // check if all fields are valid
-    if (!nameInput || !emailInput || !phoneInput || !subjectInput || !messageInput) {
+    if (!nameInput || !emailInput || !phoneInput || !subjectInput || !messageInput || !dateInput || !timeInput) {
         contactFormError.innerText = 'Please fill out all required fields';
         // execute fetch POST method to contact-form.php document
     } else {
@@ -97,5 +101,16 @@ function validateFormData(event) {
         // if message is entered and valid, then remove error message
     } else {
         messageInputError. innerText = '';
+    }
+    // check if date input field is entered
+    if (!dateInput) {
+        dateInputError.innerText = 'Please enter a date';
+    } else {
+        dateInputError.innerText = '';
+    }
+    if (!timeInput) {
+        timeInputError.innerText = 'Please enter a time';
+    } else {
+        timeInputError.innerText = '';
     }
 }

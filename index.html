@@ -40,12 +40,14 @@
     <!-- contact form START -->
     <div class="contact-form-container">
       <form id="contact-form" novalidate>
-        <!-- contact form header -->
+        <!-- contact form header START -->
         <dl>
           <dt>Contact us</dt>
           <dd id="contact-form-error"></dd>
         </dl>
-        <!-- input for name -->
+        <!-- contact form header END -->
+
+        <!-- input for name START -->
         <dl>
           <dt>
             <label for="contact-name">Name:<span>*</span></label>
@@ -60,7 +62,9 @@
           </dd>
           <dd id="contact-name-error"></dd>
         </dl>
-        <!-- input for email -->
+        <!-- input for name END -->
+
+        <!-- input for email START -->
         <dl>
           <dt>
             <label for="contact-email">E-mail:<span>*</span></label>
@@ -75,7 +79,8 @@
           </dd>
           <dd id="contact-email-error"></dd>
         </dl>
-        <!-- input for phone -->
+        <!-- input for email END -->
+        <!-- input for phone START -->
         <dl>
           <dt>
             <label for="contact-phone">Phone:<span>*</span></label>
@@ -90,7 +95,9 @@
           </dd>
           <dd id="contact-phone-error"></dd>
         </dl>
-        <!-- input for subject -->
+        <!-- input for phone END -->
+
+        <!-- input for subject START -->
         <dl>
           <dt>
             <label for="contact-subject">Subject:<span>*</span></label>
@@ -105,7 +112,9 @@
           </dd>
           <dd id="contact-subject-error"></dd>
         </dl>
-        <!-- input for message -->
+        <!-- input for subject END -->
+
+        <!-- input for message START -->
         <dl>
           <dt>
             <label for="contact-message">Message:<span>*</span></label>
@@ -119,8 +128,31 @@
           </dd>
           <dd id="contact-message-error"></dd>
         </dl>
-        <!-- button submit -->
+        <!-- input for message END -->
+
+        <!-- input for date START -->
+        <dl>
+          <dt>
+            <label for="contact-date">Date: <span>*</span></label>
+          </dt>
+          <dd><input type="date" name="date" id="contact-date" /></dd>
+          <dd id="contact-date-error"></dd>
+        </dl>
+        <!-- input for date END -->
+
+        <!-- input for time START -->
+        <dl>
+          <dt>
+            <label for="contact-time">Time: <span>*</span></label>
+            <dd><input type="time" name="time" id="contact-time" /></dd>
+            <dd id="contact-time-error"></dd>
+          </dt>
+        </dl>
+        <!-- input for time END -->
+
+        <!-- button submit START -->
         <button id="contact-submit" name="submit" type="submit">Send</button>
+        <!-- button submit END -->
       </form>
     </div>
     <!-- contact form END -->
