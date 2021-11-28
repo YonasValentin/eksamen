@@ -28,15 +28,25 @@ function validateFormData(event) {
         contactFormError.innerText = 'Please fill out all required fields';
         // execute fetch POST method to contact-form.php document
     } else {
-        fetch('/', {
+        fetch('https://formsubmit.co/ajax/yonasklibi@gmail.com', {
             method:'POST',
-            body: formData,
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+            },
+            body: JSON.stringify({
+                From: nameInput,
+                Email: emailInput,
+                Phone: phoneInput,
+                Subject: subjectInput,
+                Message: messageInput,
+            }),
             // checks if form is submitted correctly
         }).then(function(response) {
-            return response.text();
+            response.json();
             // console.log response if success or error
-        }).then(function(text) {
-            console.log(text);
+        }).then(function(data) {
+            console.log(data);
         }).catch(function(error) {
             console.log(error);
         })
