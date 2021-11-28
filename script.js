@@ -30,9 +30,32 @@ function validateFormData(event) {
     // check if all fields are valid
     if (!nameInput || !emailInput || !phoneInput || !subjectInput || !messageInput || !dateInput || !timeInput) {
         contactFormError.innerText = 'Please fill out all required fields';
-        // execute fetch POST method to contact-form.php document
+        // execute fetch POST method to formsubmit
     } else {
         fetch('https://formsubmit.co/ajax/yonasklibi@gmail.com', {
+            method:'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+            },
+            body: JSON.stringify({
+                From: nameInput,
+                Email: emailInput,
+                Phone: phoneInput,
+                Subject: subjectInput,
+                Message: messageInput,
+            }),
+            // checks if form is submitted correctly
+        }).then(function(response) {
+            response.json();
+            // console.log response if success or error
+        }).then(function(data) {
+            console.log(data);
+        }).catch(function(error) {
+            console.log(error);
+        })
+        // if multiple admin emails
+        fetch('https://formsubmit.co/ajax/yonasmougaard@gmail.com', {
             method:'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -75,7 +98,7 @@ function validateFormData(event) {
     // check if empty phone input field
     if (!phoneInput) {
         phoneInputError.innerText = 'Please enter your phone number';
-        // check if phone number is between less then 8 and 11
+        // check if phone number starts with either +45 || 0045 && contains 8 digtets
     } else if (!phoneInput.match(/^[+]*[45]{2}[\d]{8}|^[0045]{4}[\d]{8}|^\d{8}$/)) {
         phoneInputError.innerText = 'Please enter a valid phone number';
         // if phone number is entered and valid, then remove error message
@@ -105,11 +128,14 @@ function validateFormData(event) {
     // check if date input field is entered
     if (!dateInput) {
         dateInputError.innerText = 'Please enter a date';
+        // if date is entered, then remove error message
     } else {
         dateInputError.innerText = '';
     }
+    // check if time input field is entered
     if (!timeInput) {
         timeInputError.innerText = 'Please enter a time';
+        // if time is entered, then remove error
     } else {
         timeInputError.innerText = '';
     }
