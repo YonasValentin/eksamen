@@ -28,7 +28,7 @@ function validateFormData(event) {
         contactFormError.innerText = 'Please fill out all required fields';
         // execute fetch POST method to contact-form.php document
     } else {
-        fetch('contact-form.php', {
+        fetch('/', {
             method:'POST',
             body: formData,
             // checks if form is submitted correctly
