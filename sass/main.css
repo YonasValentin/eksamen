@@ -3,6 +3,7 @@
 /* Phone MEDIA QUERY */
 /* Tablet MEDIA QUERY */
 /* Desktop MEDIA QUERY */
+/* navbar */
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
@@ -26,46 +27,8 @@ body {
   /* insert font-family here */
 }
 
-/* components */
-/* insert buttons here */
-/* layout */
-nav {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-flow: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 50px 50px;
-  background-color: #F2F2F2;
-}
-
-nav ul {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-flow: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  grid-column-gap: 50px;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #736558;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
+/* atoms */
+/* molecules */
+/* organisms */
 /* pages */
 /*# sourceMappingURL=main.css.map */
