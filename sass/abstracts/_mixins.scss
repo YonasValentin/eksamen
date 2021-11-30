@@ -1,0 +1,20 @@
+/* MEDIA QUERIES */
+
+/* Phone MEDIA QUERY */
+@mixin for-phone-only {
+    @media only screen and (min-width: 480px) {
+        @content;
+    }
+}
+/* Tablet MEDIA QUERY */
+@mixin for-tablet-only {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+/* Desktop MEDIA QUERY */
+@mixin for-desktop-only {
+    @media only screen and (min-width: 1024px) {
+        @content;
+    }
+}
