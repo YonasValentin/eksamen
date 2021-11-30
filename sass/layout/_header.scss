@@ -1,24 +1,24 @@
 nav {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+  background-color: $eksamen-5-hex;
+  ul {
     display: grid;
     grid-auto-flow: column;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px;
-    background-color: $eksamen-5-hex;
-    ul {
-        display: grid;
-        grid-auto-flow: column;
-        justify-content: space-between;
-        align-items: center;
-        grid-column-gap: 50px;
-        li {
-            list-style: none;
-            a {
-                text-decoration: none;
-                color: $eksamen-2-hex;
-                font-weight: 500;
-                text-transform: uppercase;
-            }
-        }
+    grid-column-gap: 50px;
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $eksamen-2-hex;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
     }
+  }
 }
