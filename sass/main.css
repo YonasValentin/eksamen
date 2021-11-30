@@ -1,13 +1,11 @@
 /* abstracts */
 /* MEDIA QUERIES START */
-/* Phone MEDIA QUERY */
-/* Tablet MEDIA QUERY */
-/* Desktop MEDIA QUERY */
 /* MEDIA QUERY END */
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
 /* base */
+@import url("https://use.typekit.net/yph1dvt.css");
 *,
 *::before,
 *::after {
@@ -23,8 +21,9 @@ body {
 }
 
 body {
-  font-family: sans-serif;
-  /* insert font-family here */
+  font-family: urbane, sans-serif;
+  font-weight: 900, 700, 600, 500, 300, 200, 100;
+  font-style: normal, italic;
 }
 
 /* atoms */
