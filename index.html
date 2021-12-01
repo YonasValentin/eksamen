@@ -12,8 +12,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Document</title>
-    <script src="script.js" defer></script>
+    <script src="/js/contact-form.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+    <script src="/js/cases-slider.js" type="text/javascript" defer>
+    </script>
   </head>
 
   <body>
@@ -22,17 +27,63 @@
       <!-- logo START -->
       <a href="#"><img src="logo.svg" alt="Max møbler logo"></a>
       <!-- logo END -->
+
+      <!-- navigation menu START -->
       <ul class="nav__projects-about-reviews">
         <li><a href="#">Projekter</a></li>
         <li><a href="#">Om os</a></li>
-        <li><a href="#">Anmeldelser</a></li>
+        <li><a href="#">BoBedre</a></li>
       </ul>
+      <!-- navigation menu END -->
+
+      <!-- book nu knap START -->
       <button><a href="#">Book møde</a></button>
+      <!-- book nu knap END -->
+
     </nav>
     <!-- navigation END -->
 
+    <!-- cases slider START -->
+    <section id="cases-slider" class="cases-slider">
+      <dl>
+        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <dt>Rikke</dt>
+        <dd>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed maiores mollitia omnis eius architecto molestiae ipsum dolorem repudiandae molestias dolorum?"</dd>
+      </dl>
+      <dl>
+        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <dt>Morten</dt>
+        <dd>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos voluptatum omnis minima iste voluptatibus quas nesciunt blanditiis. Eos, officia eius!"</dd>
+      </dl>
+
+      <dl>
+        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <dt>Mark</dt>
+        <dd>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique incidunt debitis id minima! Ab repellat libero odit suscipit labore incidunt?"</dd>
+      </dl>
+
+      <dl>
+        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <dt>Rikke</dt>
+        <dd>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed maiores mollitia omnis eius architecto molestiae ipsum dolorem repudiandae molestias dolorum?"</dd>
+      </dl>
+
+      <dl>
+        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <dt>Morten</dt>
+        <dd>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos voluptatum omnis minima iste voluptatibus quas nesciunt blanditiis. Eos, officia eius!"</dd>
+      </dl>
+
+      <dl>
+        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <dt>Mark</dt>
+        <dd>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique incidunt debitis id minima! Ab repellat libero odit suscipit labore incidunt?"</dd>
+      </dl>
+    </section>
+    <!-- cases slider END -->
+
     <!-- contact form START -->
-    <div class="contact-form-container">
+    <section id="contact-section" class="contact-section">
       <form id="contact-form" novalidate>
         <!-- contact form header START -->
         <dl>
@@ -148,7 +199,8 @@
         <button id="contact-submit" name="submit" type="submit">Send</button>
         <!-- button submit END -->
       </form>
-    </div>
+    </section>
     <!-- contact form END -->
+
   </body>
 </html>
