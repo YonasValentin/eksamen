@@ -1,11 +1,9 @@
 /* abstracts */
-/* MEDIA QUERIES START */
-/* MEDIA QUERY END */
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
 /* base */
-@import url("https://use.typekit.net/yph1dvt.css");
+/* button animations */
 *,
 *::before,
 *::after {
@@ -20,14 +18,72 @@ body {
           box-sizing: border-box;
 }
 
-body {
+@font-face {
   font-family: urbane, sans-serif;
+  src: url("https://use.typekit.net/yph1dvt.css");
   font-weight: 900, 700, 600, 500, 300, 200, 100;
   font-style: normal, italic;
 }
 
+@font-face {
+  font-family: bilo, sans-serif;
+  src: url("https://use.typekit.net/yph1dvt.css");
+  font-weight: 900, 700, 600, 500, 300, 200, 100;
+}
+
+@font-face {
+  font-family: "Poiret One", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Quicksand", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+  font-weight: 700, 600, 500, 400, 300;
+}
+
+/* primary button */
 /* atoms */
 /* molecules */
+nav button {
+  background: transparent;
+  padding: 1rem 4rem;
+  border: 0.3125rem solid #736558;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+nav button:hover {
+  -webkit-transition: all 0.35s ease;
+  -webkit-transition: all 0 35s ease;
+  transition: all 0 35s ease;
+}
+
+nav button:active {
+  -webkit-transform: translate(5px, 5px);
+  transform: translate(5px, 5px);
+}
+
+nav button a {
+  color: #736558;
+  text-decoration: none;
+}
+
+nav button:hover {
+  background: #736558;
+}
+
+nav button:hover a {
+  color: #F2F2F2;
+}
+
 /* organisms */
 /* pages */
 /*# sourceMappingURL=main.css.map */

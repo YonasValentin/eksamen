@@ -1,0 +1,18 @@
+@mixin primary-btn-style {
+  background: transparent;
+  padding: 1rem 4rem;
+  border: 0.3125rem solid $eksamen-2-hex;
+  cursor: pointer;
+  @include prim-button-font-style;
+  @include primary-button-animation;
+  a {
+    color: $eksamen-2-hex;
+    text-decoration: none;
+  }
+  &:hover {
+    background: $eksamen-2-hex;
+    a {
+      color: $eksamen-5-hex;
+    }
+  }
+}
