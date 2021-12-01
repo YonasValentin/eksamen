@@ -1,4 +1,5 @@
 @mixin link-style {
+  width: 100%;
   text-decoration: none;
   color: $eksamen-2-hex;
   @include link-font-style;

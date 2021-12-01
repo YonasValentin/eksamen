@@ -1,10 +1,27 @@
-nav {
+@mixin navigationbar {
   @include grid-jcsb-aic-gafc;
   background-color: $eksamen-5-hex;
   padding: 1rem 5rem;
+  position: fixed;
+  width: 100%;
+  @include respond(tablet) {
+    padding: 1rem 2rem;
+  }
   ul {
     @include grid-jcsb-aic-gafc;
-    gap: 40px;
+
+    @include respond(phone) {
+      gap: 40px;
+    }
+    @include respond(tablet) {
+      gap: 20px;
+    }
+    @include respond(desktop) {
+      gap: 60px;
+    }
+    @include respond(desktop-large) {
+      gap: 200px;
+    }
   }
   button {
     @include primary-button-style;

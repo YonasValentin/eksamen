@@ -1,13 +1,13 @@
 /* Media Queries */
 
-@mixin responsive($breakpoint) {
+@mixin respond($breakpoint) {
   @if $breakpoint == phone {
     @media (min-width: 22.5rem) {
       @content;
     }
   }
   @if $breakpoint == tablet {
-    @media (min-width: 48rem) {
+    @media (min-width: 768px) {
       @content;
     }
   }
