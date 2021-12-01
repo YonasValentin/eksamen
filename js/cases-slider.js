@@ -1,5 +1,7 @@
 $(document).ready(function () {
   $(".cases-slider").slick({
+    prevArrow: $(".prev"),
+    nextArrow: $(".next"),
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
