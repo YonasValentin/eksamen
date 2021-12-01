@@ -1,6 +1,6 @@
 /* Media Queries */
 
-@mixin respond($breakpoint) {
+@mixin responsive($breakpoint) {
   @if $breakpoint == phone {
     @media (min-width: 22.5rem) {
       @content;

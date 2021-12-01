@@ -4,22 +4,22 @@
   padding: 1rem 5rem;
   position: fixed;
   width: 100%;
-  @include respond(tablet) {
+  @include responsive(tablet) {
     padding: 1rem 2rem;
   }
   ul {
     @include grid-jcsb-aic-gafc;
 
-    @include respond(phone) {
+    @include responsive(phone) {
       gap: 40px;
     }
-    @include respond(tablet) {
+    @include responsive(tablet) {
       gap: 20px;
     }
-    @include respond(desktop) {
+    @include responsive(desktop) {
       gap: 60px;
     }
-    @include respond(desktop-large) {
+    @include responsive(desktop-large) {
       gap: 200px;
     }
   }
