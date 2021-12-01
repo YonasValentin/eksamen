@@ -32,44 +32,9 @@ input {
   border: 0;
 }
 
-input::-webkit-input-placeholder {
-  width: auto;
-}
-
-input:-ms-input-placeholder {
-  width: auto;
-}
-
-input::-ms-input-placeholder {
-  width: auto;
-}
-
-input::placeholder {
-  width: auto;
-}
-
 button {
   border: 0;
   background: none;
-}
-
-@font-face {
-  font-family: urbane, sans-serif;
-  src: url("https://use.typekit.net/yph1dvt.css");
-  font-weight: 900, 700, 600, 500, 300, 200, 100;
-  font-style: normal, italic;
-}
-
-@font-face {
-  font-family: bilo, sans-serif;
-  src: url("https://use.typekit.net/yph1dvt.css");
-  font-weight: 900, 700, 600, 500, 300, 200, 100;
-}
-
-@font-face {
-  font-family: "Poiret One", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
-  font-weight: 400;
 }
 
 @font-face {
@@ -80,9 +45,35 @@ button {
 
 /* primary button */
 /* link */
+/* H1 */
+/* H2 */
 /* atoms */
 /* molecules */
+.cases-slider img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+}
+
+.cases-slider dl {
+  padding: 40px 20px;
+  width: 400px;
+  background-color: #736558;
+  margin: 0 20px;
+  height: 300px;
+}
+
 /* organisms */
+/* templates */
+.cases-slider {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50vh;
+}
+
 /* pages */
 nav {
   display: -ms-grid;
@@ -98,6 +89,8 @@ nav {
   padding: 1rem 5rem;
   position: fixed;
   width: 100%;
+  top: 0;
+  z-index: 100;
 }
 
 @media (min-width: 768px) {
@@ -106,7 +99,7 @@ nav {
   }
 }
 
-nav ul {
+nav .nav__projects-about-reviews {
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: justify;
@@ -119,25 +112,25 @@ nav ul {
 }
 
 @media (min-width: 22.5rem) {
-  nav ul {
+  nav .nav__projects-about-reviews {
     gap: 40px;
   }
 }
 
 @media (min-width: 768px) {
-  nav ul {
+  nav .nav__projects-about-reviews {
     gap: 20px;
   }
 }
 
 @media (min-width: 72rem) {
-  nav ul {
+  nav .nav__projects-about-reviews {
     gap: 60px;
   }
 }
 
 @media (min-width: 90rem) {
-  nav ul {
+  nav .nav__projects-about-reviews {
     gap: 200px;
   }
 }

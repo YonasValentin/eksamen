@@ -1,0 +1,12 @@
+.cases-slider {
+  img {
+    @include cases-profil-img;
+  }
+  dl {
+    padding: 40px 20px;
+    width: 400px;
+    background-color: $eksamen-2-hex;
+    margin: 0 20px;
+    height: 300px;
+  }
+}
