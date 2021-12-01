@@ -61,7 +61,7 @@ button {
 .cases-slider dl {
   padding: 40px 20px;
   width: 400px;
-  background-color: #736558;
+  background-color: #f2f2f2;
   margin: 0 20px;
   height: 300px;
 }
@@ -71,7 +71,8 @@ button {
 .cases-slider {
   width: 100vw;
   height: 100vh;
-  padding-top: 50vh;
+  position: absolute;
+  padding-top: 30vh;
 }
 
 /* pages */
