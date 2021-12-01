@@ -16,10 +16,8 @@ textarea {
 }
 input {
   border: 0;
-  &::placeholder {
-    width: auto;
-  }
 }
+
 button {
   border: 0;
   background: none;

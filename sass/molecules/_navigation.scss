@@ -4,10 +4,11 @@
   padding: 1rem 5rem;
   position: fixed;
   width: 100%;
+
   @include responsive(tablet) {
     padding: 1rem 2rem;
   }
-  ul {
+  .nav__projects-about-reviews {
     @include grid-jcsb-aic-gafc;
 
     @include responsive(phone) {
