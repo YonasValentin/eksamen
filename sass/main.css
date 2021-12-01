@@ -1,4 +1,6 @@
 /* abstracts */
+/* Media Queries */
+/* grid | justify-content: space-between | align-items: center | grid-auto-flow: column */
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
@@ -16,6 +18,10 @@
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
 }
 
 @font-face {
@@ -44,8 +50,36 @@ body {
 }
 
 /* primary button */
+/* link */
 /* atoms */
 /* molecules */
+nav {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-auto-flow: column;
+  background-color: #F2F2F2;
+  padding: 1rem 5rem;
+}
+
+nav ul {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-auto-flow: column;
+  gap: 40px;
+}
+
 nav button {
   background: transparent;
   padding: 1rem 4rem;
@@ -82,6 +116,15 @@ nav button:hover {
 
 nav button:hover a {
   color: #F2F2F2;
+}
+
+nav a {
+  text-decoration: none;
+  color: #736558;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
 /* organisms */

@@ -1,5 +1,15 @@
 nav {
+  @include grid-jcsb-aic-gafc;
+  background-color: $eksamen-5-hex;
+  padding: 1rem 5rem;
+  ul {
+    @include grid-jcsb-aic-gafc;
+    gap: 40px;
+  }
   button {
     @include primary-button-style;
+  }
+  a {
+    @include link-style;
   }
 }

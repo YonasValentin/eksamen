@@ -1,0 +1,5 @@
+@mixin link-style {
+  text-decoration: none;
+  color: $eksamen-2-hex;
+  @include link-font-style;
+}
