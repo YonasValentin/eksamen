@@ -18,23 +18,57 @@
 
   <body>
     <!-- navigation START -->
-    <nav>
-      <ul class="nav__logo">
-        <li><a href="#">LOGO svg</a></li>
-      </ul>
-      <ul class="nav__menu">
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-      </ul>
-      <ul class="nav__contact-socials">
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <div class="logo">
+          <img class="logoimg" src="boldlogo.jpg" alt="Logo" />
+        </div>
+        <input type="checkbox" id="check" />
+        <label for="check" class="burgericon">
+          <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="links">
+          <li><a class="aktiv" href="#Projekter">Projekter</a></li>
+          <li><a href="#OmMig">Om mig</a></li>
+          <li><a href="#Reperationer">Reperationer</a></li>
+          <li><a href="#Anmeldeser">Anmedelser</a></li>
+          <li><a href="#Booknu">Book nu</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home">
+      <video
+        class="video-slide"
+        src="/videos/slowmovideo.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="content active">
+        <h1>Max Moebel<br /><span></span></h1>
+        <p>Lorem ipsum dolor</p>
+      </div>
+    </section>
+
+    <div class="about">
+      <div class="info">
+        <img src="/images/ReolKasperogMie.jpg" />
+        <div class="text">
+          <h2>Om Mig</h2>
+          <h3>Profesionel snedkere</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem enim, ex ipsam quas perferendis, nesciunt voluptates
+            voluptatibus vero itaque harum nostrum at quam eligendi, doloribus
+            excepturi ut blanditiis illo optio!
+          </p>
+          <buttton class="button" type="button">Book en møde</buttton>
+        </div>
+      </div>
+    </div>
+    <script src="/java/main.js"></script>
     <!-- navigation END -->
 
     <!-- contact form START -->
