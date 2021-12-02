@@ -3,7 +3,9 @@
   background-color: $eksamen-5-hex;
   padding: 1rem 5rem;
   position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 1000;
   @include responsive(tablet) {
     padding: 1rem 2rem;
   }

@@ -1,24 +1,33 @@
 #bobedre{
     height: 100vh;
     width: 100%;
-    background-color: red;
+    background-color: #733B1A;
+    padding-top: 10rem;
     img{
-        width: 60%;
+        
+        object-fit: cover;
+        width: 400px;
+        height: 100%;
         float: right;
+        position: relative;
     }
     dt{
         @include h1;
     }
     dd{
-        button{
-            
-        }
+       
     }
     @include h1;
+    @include h2;
+    @include h3;
     .card {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
-        width: 30%;
+        width: 50vw;
+        height: 60vh;
+        margin: 0 auto;
+        background-color: white;
+        
       }
       
       .card:hover {
@@ -26,7 +35,23 @@
       }
       
       .container {
-        padding: 2px 16px;
+        
+
+      }
+      .container2{
+      
+      }
+      .container3{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 40vw;
+        padding: 0 300px;
+        @include responsive(tablet){
+          padding:10px;
+        }
+       
+      
       }
   
 }

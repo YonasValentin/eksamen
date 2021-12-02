@@ -54,25 +54,6 @@ button {
 }
 
 @font-face {
-  font-family: urbane, sans-serif;
-  src: url("https://use.typekit.net/yph1dvt.css");
-  font-weight: 900, 700, 600, 500, 300, 200, 100;
-  font-style: normal, italic;
-}
-
-@font-face {
-  font-family: bilo, sans-serif;
-  src: url("https://use.typekit.net/yph1dvt.css");
-  font-weight: 900, 700, 600, 500, 300, 200, 100;
-}
-
-@font-face {
-  font-family: "Poiret One", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
-  font-weight: 400;
-}
-
-@font-face {
   font-family: "Quicksand", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
   font-weight: 700, 600, 500, 400, 300;
@@ -82,6 +63,77 @@ button {
 /* link */
 /* atoms */
 /* molecules */
+#bobedre {
+  height: 100vh;
+  width: 100%;
+  background-color: #733B1A;
+  padding-top: 10rem;
+  position: relative;
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  float: left;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#bobedre img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 400px;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+
+#bobedre dt {
+  position: relative;
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+#bobedre .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 50vw;
+  height: 60vh;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#bobedre .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#bobedre .container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0 40vw;
+  padding: 0 300px;
+}
+
+@media (min-width: 768px) {
+  #bobedre .container3 {
+    padding: 10px;
+  }
+}
+
 /* organisms */
 /* pages */
 nav {
@@ -97,7 +149,9 @@ nav {
   background-color: #f2f2f2;
   padding: 1rem 5rem;
   position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 1000;
 }
 
 @media (min-width: 768px) {
