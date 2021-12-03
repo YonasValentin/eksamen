@@ -1,6 +1,7 @@
 /* abstracts */
 /* Media Queries */
 /* display:flex | justify-content: space-between; | align-items: center */
+/* section dimensions */
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
@@ -72,6 +73,47 @@ button {
 }
 
 /* molecules */
+nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f2f2f2;
+}
+
+nav button {
+  cursor: pointer;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20rem;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 80px;
+  background-color: blue;
+}
+
 /* organisms */
 /* templates */
 /* sections */

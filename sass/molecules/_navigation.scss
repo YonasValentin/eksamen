@@ -1,0 +1,19 @@
+nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  padding: 10px 20px;
+  @include df-jcsb-aic;
+  background-color: $eksamen-5-hex;
+  button {
+    cursor: pointer;
+  }
+  ul {
+    @include df-jcsb-aic;
+    width: 20rem;
+  }
+}
+.hero {
+  @include section-dimensions;
+  background-color: blue;
+}
