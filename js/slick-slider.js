@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  $(".cases-slider").slick({
+  $(".oevrige-projekter").slick({
+    centerMode: true,
     prevArrow: $(".prev"),
     nextArrow: $(".next"),
     slidesToShow: 3,

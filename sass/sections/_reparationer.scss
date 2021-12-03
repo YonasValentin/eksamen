@@ -1,0 +1,5 @@
+.reparationer {
+  background-color: saddlebrown;
+  @include section-dimensions;
+  scroll-snap-align: start;
+}

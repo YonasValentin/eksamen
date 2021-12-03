@@ -5,6 +5,7 @@ nav {
   padding: 10px 20px;
   @include df-jcsb-aic;
   background-color: $eksamen-5-hex;
+  z-index: 100;
   button {
     cursor: pointer;
   }

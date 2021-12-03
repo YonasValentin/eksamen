@@ -1,0 +1,19 @@
+.projekter {
+  background-color: orange;
+  @include section-dimensions;
+  scroll-snap-align: start;
+}
+.oevrige-projekter {
+  margin-left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  img {
+    width: 100px;
+  }
+}
+.oevrige-projekter__buttons-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-left: 50%;
+}

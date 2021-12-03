@@ -1,0 +1,5 @@
+.hero {
+  background-color: red;
+  @include section-dimensions;
+  scroll-snap-align: start;
+}

@@ -38,16 +38,6 @@ button {
   background: none;
 }
 
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 @font-face {
   font-family: "Quicksand", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
@@ -88,6 +78,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f2f2f2;
+  z-index: 100;
 }
 
 nav button {
@@ -108,13 +99,80 @@ nav ul {
 }
 
 .hero {
+  padding-top: 100px;
   width: 100vw;
   height: 100vh;
-  padding-top: 80px;
   background-color: blue;
 }
 
 /* organisms */
 /* templates */
 /* sections */
+.hero {
+  background-color: red;
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.projekter {
+  background-color: orange;
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.oevrige-projekter {
+  margin-left: 50%;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.oevrige-projekter img {
+  width: 100px;
+}
+
+.oevrige-projekter__buttons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-left: 50%;
+}
+
+.om-os {
+  background-color: lightblue;
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.reparationer {
+  background-color: saddlebrown;
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.book-moede {
+  background-color: yellow;
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.footer {
+  background-color: green;
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
 /*# sourceMappingURL=main.css.map */

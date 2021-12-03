@@ -53,18 +53,23 @@
     <script src="/js/slick-slider.js" type="text/javascript" defer></script>
     <!-- slick-slider javascript END -->
 
+    <!-- scroll-behavior jQuery START -->
+    <script src="/js/scroll-behavior.js" defer></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" defer></script>
+
   </head>
   <body class="container">
     <!-- navigation START -->
     <nav>
-      <button><img src="logo.svg" alt="logo af max møbler"></button>
+      <button id="nav-top"><img src="logo.svg" alt="logo af max møbler"></button>
       <ul>
-        <li><button>Projekter</button></li>
-        <li><button>Om os</button></li>
-        <li><button>Reparationer</button></li>
-        <li><button>Bo Bedre</button></li>
+        <li><button id="nav-projekter">Projekter</button></li>
+        <li><button id="nav-om-os">Om os</button></li>
+        <li><button id="nav-reparationer">Reparationer</button></li>
+        <li><button id="nav-bobedre">Bo Bedre</button></li>
       </ul>
-      <button>Book møde</button>
+      <button id="nav-book-moede">Book møde</button>
     </nav>
     <!-- navigation END -->
 
@@ -78,7 +83,7 @@
     <!-- hero END -->
 
     <!-- projekter START -->
-    <section class="projekter">
+    <section id="section-projekter" class="projekter">
       <!-- øvrige projekter START -->
       <div class="oevrige-projekter">
       <dl>
@@ -157,19 +162,19 @@
     <!-- projekter END -->
 
     <!-- om os START -->
-    <section class="om-os"></section>
+    <section id="section-om-os" class="om-os"></section>
     <!-- om os END -->
 
     <!-- reparationer START -->
-    <section class="reparationer"></section>
+    <section id="section-reparationer" class="reparationer"></section>
     <!-- reparationer END -->
 
     <!-- bo bedre START -->
-    <section class="bo-bedre"></section>
+    <section id="section-bobedre" class="bo-bedre"></section>
     <!-- bo bedre END -->
 
     <!-- book møde START -->
-    <section class="book-moede">
+    <section id="section-book-moede" class="book-moede">
       <form id="contact-form" novalidate>
         <!-- contact form header START -->
         <dl>
