@@ -4,7 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- css stylesheet START -->
     <link rel="stylesheet" href="/sass/main.css" />
+    <!-- css stylesheet END -->
+
+    <!-- css slick-slider CDN stylesheet START -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- css slick-slider CDN stylesheet END -->
+
+    <!-- font awesome CDN START -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -12,92 +26,146 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <title>Forside | Maxmøbel</title>
-    <script src="/js/contact-form.js" defer></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
-    <script src="/js/cases-slider.js" type="text/javascript" defer>
-    </script>
-  </head>
 
-  <body>
+    <!-- font awesome CDN END -->
+
+    <!-- jQuery CDN START -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <!-- jQuery CDN END -->
+
+
+    <!-- contact-form javaScript START -->
+    <script src="/js/contact-form.js" defer></script>
+    <!-- contact-form javascript END -->
+
+    <!-- slick-slider jQuery CDN START -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+      defer
+    ></script>
+    <!-- slick slider jQuery CDN END -->
+
+    <!-- slick-slider javascript START -->
+    <script src="/js/slick-slider.js" type="text/javascript" defer></script>
+    <!-- slick-slider javascript END -->
+  </head>
+  <body class="container">
     <!-- navigation START -->
     <nav>
-      <!-- logo START -->
-      <a href="#"><img src="logo.svg" alt="Max møbler logo"></a>
-      <!-- logo END -->
-
-      <!-- navigation menu START -->
-      <ul class="nav__projects-about-reviews">
-        <li><a href="#">Projekter</a></li>
-        <li><a href="#">Om os</a></li>
-        <li><a href="#">BoBedre</a></li>
+      <button><img src="logo.svg" alt="logo af max møbler"></button>
+      <ul>
+        <li><button>Projekter</button></li>
+        <li><button>Om os</button></li>
+        <li><button>Reparationer</button></li>
+        <li><button>Bo Bedre</button></li>
       </ul>
-      <!-- navigation menu END -->
-
-      <!-- book nu knap START -->
-      <button><a href="#">Book møde</a></button>
-      <!-- book nu knap END -->
-
+      <button>Book møde</button>
     </nav>
     <!-- navigation END -->
 
-    <!-- cases slider START -->
-    <div class="cases-slider-container">
-    <section id="cases-slider" class="cases-slider">
+    <!-- hero START -->
+    <section class="hero"></section>
+    <!-- hero END -->
+
+    <!-- projekter START -->
+    <section class="projekter">
+      <!-- øvrige projekter START -->
+      <div class="oevrige-projekter">
       <dl>
-        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <img
+          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+        />
+
         <dt>Rikke</dt>
         <dd>"Lorem, ipsum dolor"</dd>
         <button>Læs mere</button>
       </dl>
       <dl>
-        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+        <img
+          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+        />
+
         <dt>Morten</dt>
         <dd>"Lorem ipsum dolor"</dd>
         <button>Læs mere</button>
       </dl>
 
       <dl>
-        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <img
+          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+        />
         <dt>Mark</dt>
         <dd>"Lorem ipsum dolor"</dd>
         <button>Læs mere</button>
       </dl>
 
       <dl>
-        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <img
+          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+        />
         <dt>Rikke</dt>
         <dd>"Lorem, ipsum dolor"</dd>
         <button>Læs mere</button>
       </dl>
 
       <dl>
-        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <img
+          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+        />
         <dt>Morten</dt>
         <dd>"Lorem ipsum dolor"</dd>
         <button>Læs mere</button>
       </dl>
 
       <dl>
-        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <img
+          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+        />
         <dt>Mark</dt>
         <dd>"Lorem ipsum dolor"</dd>
         <button>Læs mere</button>
       </dl>
+
+    </div>
+    <div class="oevrige-projekter__buttons-container">
+      <button type="button" class="prev">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button type="button" class="next">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+    <!-- øvrige projekter END -->
     </section>
-    <div class="cases-slider__buttons">
-      <button type="button" class="prev"><i class="fas fa-chevron-left"></i></button>
-    <button type="button" class="next"><i class="fas fa-chevron-right"></i></button>
+    <!-- projekter END -->
 
-  </div>
-  </div>
+    <!-- om os START -->
+    <section class="om-os"></section>
+    <!-- om os END -->
 
-    <!-- cases slider END -->
+    <!-- reparationer START -->
+    <section class="reparationer"></section>
+    <!-- reparationer END -->
 
-    <!-- contact form START -->
-    <section id="contact-section" class="contact-section">
+    <!-- bo bedre START -->
+    <section class="bo-bedre"></section>
+    <!-- bo bedre END -->
+
+    <!-- book møde START -->
+    <section class="book-moede">
       <form id="contact-form" novalidate>
         <!-- contact form header START -->
         <dl>
@@ -139,6 +207,7 @@
           <dd id="contact-email-error"></dd>
         </dl>
         <!-- input for email END -->
+        
         <!-- input for phone START -->
         <dl>
           <dt>
@@ -214,7 +283,10 @@
         <!-- button submit END -->
       </form>
     </section>
-    <!-- contact form END -->
+    <!-- book moede END -->
 
+    <!-- footer START -->
+    <section class="footer"></section>
+    <!-- footer END -->
   </body>
 </html>
