@@ -23,16 +23,9 @@
   }
 }
 
-/* grid | justify-content: space-between | align-items: center | grid-auto-flow: column */
-@mixin grid-jcsb-aic-gafc {
-  display: grid;
+/* display:flex | justify-content: space-between; | align-items: center */
+@mixin df-jcsb-aic {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  grid-auto-flow: column;
-}
-@mixin section-dimensions {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  padding-top: 30vh;
 }
