@@ -15,3 +15,14 @@
     }
   }
 }
+.cases-slider__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 3rem;
+}
+.next,
+.prev {
+  color: $eksamen-1-hex;
+  font-size: 30px;
+}

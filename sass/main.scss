@@ -12,14 +12,19 @@
 @import "atoms/buttons";
 @import "atoms/inputs";
 @import "atoms/links";
+@import "atoms/image";
 
 /* molecules */
 @import "molecules/contact-form";
 @import "molecules/navigation";
+@import "molecules/card";
 
 /* organisms */
 @import "organisms/header";
 @import "organisms/footer";
+
+/* templates */
+@import "templates/cases-slider";
 
 /* pages */
 @import "pages/home";
