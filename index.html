@@ -43,31 +43,49 @@
 
     <!-- slick-slider jQuery CDN START -->
     <script
-      type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
       defer
     ></script>
     <!-- slick slider jQuery CDN END -->
 
     <!-- slick-slider javascript START -->
-    <script src="/js/slick-slider.js" type="text/javascript" defer></script>
+    <script src="/js/slick-slider.js" defer></script>
     <!-- slick-slider javascript END -->
 
     <!-- scroll-behavior jQuery START -->
     <script src="/js/scroll-behavior.js" defer></script>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" defer></script>
+    <!-- scrollify CDN START -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"
+      defer
+    ></script>
+    <!-- scrollify CDN END -->
 
+    <!-- section-projekt-1 array START -->
+    <script src="/js/array.js" defer></script>
+    <!-- section-projekt-1 array END -->
   </head>
+
   <body class="container">
     <!-- navigation START -->
     <nav>
-      <button id="nav-top"><img src="logo.svg" alt="logo af max møbler"></button>
+      <button id="nav-top">
+        <img src="logo.svg" alt="logo af max møbler" />
+      </button>
       <ul>
-        <li><button id="nav-projekter">Projekter</button></li>
-        <li><button id="nav-om-os">Om os</button></li>
-        <li><button id="nav-reparationer">Reparationer</button></li>
-        <li><button id="nav-bobedre">Bo Bedre</button></li>
+        <li>
+          <button id="nav-projekter">Projekter</button>
+        </li>
+        <li>
+          <button id="nav-om-os">Om os</button>
+        </li>
+        <li>
+          <button id="nav-reparationer">Reparationer</button>
+        </li>
+        <li>
+          <button id="nav-bobedre">Bo Bedre</button>
+        </li>
       </ul>
       <button id="nav-book-moede">Book møde</button>
     </nav>
@@ -83,86 +101,97 @@
     <!-- hero END -->
 
     <!-- projekter START -->
-    <section id="section-projekter" class="projekter">
-      <!-- øvrige projekter START -->
-      <div class="oevrige-projekter">
-      <dl>
-        <img
-          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          alt=""
-        />
-
-        <dt>Rikke</dt>
-        <dd>"Lorem, ipsum dolor"</dd>
-        <button>Læs mere</button>
-      </dl>
-      <dl>
-
-        <img
-          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          alt=""
-        />
-
-        <dt>Morten</dt>
-        <dd>"Lorem ipsum dolor"</dd>
-        <button>Læs mere</button>
-      </dl>
-
-      <dl>
-        <img
-          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          alt=""
-        />
-        <dt>Mark</dt>
-        <dd>"Lorem ipsum dolor"</dd>
-        <button>Læs mere</button>
-      </dl>
-
-      <dl>
-        <img
-          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          alt=""
-        />
-        <dt>Rikke</dt>
-        <dd>"Lorem, ipsum dolor"</dd>
-        <button>Læs mere</button>
-      </dl>
-
-      <dl>
-        <img
-          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          alt=""
-        />
-        <dt>Morten</dt>
-        <dd>"Lorem ipsum dolor"</dd>
-        <button>Læs mere</button>
-      </dl>
-
-      <dl>
-        <img
-          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          alt=""
-        />
-        <dt>Mark</dt>
-        <dd>"Lorem ipsum dolor"</dd>
-        <button>Læs mere</button>
-      </dl>
-
-    </div>
-    <div class="oevrige-projekter__buttons-container">
-      <button type="button" class="prev">
-        <i class="fas fa-chevron-left"></i>
-      </button>
-      <button type="button" class="next">
-        <i class="fas fa-chevron-right"></i>
-      </button>
-    </div>
-    <!-- øvrige projekter END -->
-    </section>
+    <section id="section-projekt-1" class="projekter"></section>
     <!-- projekter END -->
+    <section id="section-projekt-2"></section>
 
+    <section id="section-projekt-3"></section>
+
+    <!-- øvrige projekter START -->
+    <section class="oevrige-projekter">
+      <dl>
+        <dt>
+          <img
+            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt=""
+          />
+        </dt>
+
+        <dt>Rikke</dt>
+        <dd>"Lorem, ipsum dolor"</dd>
+        <dd><button>Læs mere</button></dd>
+      </dl>
+      <dl>
+        <dt>
+          <img
+            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt=""
+          />
+        </dt>
+
+        <dt>Morten</dt>
+        <dd>"Lorem ipsum dolor"</dd>
+        <dd><button>Læs mere</button></dd>
+      </dl>
+
+      <dl>
+        <dt>
+          <img
+            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt=""
+          />
+        </dt>
+        <dt>Mark</dt>
+        <dd>"Lorem ipsum dolor"</dd>
+        <dd><button>Læs mere</button></dd>
+      </dl>
+
+      <dl>
+        <dt>
+          <img
+            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt=""
+          />
+        </dt>
+        <dt>Rikke</dt>
+        <dd>"Lorem, ipsum dolor"</dd>
+        <dd><button>Læs mere</button></dd>
+      </dl>
+
+      <dl>
+        <dt>
+          <img
+            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt=""
+          />
+        </dt>
+        <dt>Morten</dt>
+        <dd>"Lorem ipsum dolor"</dd>
+        <dd><button>Læs mere</button></dd>
+      </dl>
+
+      <dl>
+        <dt>
+          <img
+            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt=""
+          />
+        </dt>
+        <dt>Mark</dt>
+        <dd>"Lorem ipsum dolor"</dd>
+        <dd><button>Læs mere</button></dd>
+      </dl>
+      <div class="oevrige-projekter__buttons-container">
+        <button type="button" class="prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button type="button" class="next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
     <!-- om os START -->
-    <section name="om-os" id="section-om-os" class="om-os"></section>
+    <section id="section-om-os" class="om-os"></section>
     <!-- om os END -->
 
     <!-- reparationer START -->
@@ -186,7 +215,10 @@
         <!-- input for name START -->
         <dl>
           <dt>
-            <label for="contact-name">Navn: <span>*</span></label>
+            <label for="contact-name"
+              >Navn:
+              <span>*</span>
+            </label>
           </dt>
           <dd>
             <input
@@ -203,7 +235,10 @@
         <!-- input for email START -->
         <dl>
           <dt>
-            <label for="contact-email">E-mail: <span>*</span></label>
+            <label for="contact-email"
+              >E-mail:
+              <span>*</span>
+            </label>
           </dt>
           <dd>
             <input
@@ -216,11 +251,14 @@
           <dd id="contact-email-error"></dd>
         </dl>
         <!-- input for email END -->
-        
+
         <!-- input for phone START -->
         <dl>
           <dt>
-            <label for="contact-phone">Tlf. nr. <span>*</span></label>
+            <label for="contact-phone"
+              >Tlf. nr.
+              <span>*</span>
+            </label>
           </dt>
           <dd>
             <input
@@ -237,7 +275,10 @@
         <!-- input for subject START -->
         <dl>
           <dt>
-            <label for="contact-subject">Emne: <span>*</span></label>
+            <label for="contact-subject"
+              >Emne:
+              <span>*</span>
+            </label>
           </dt>
           <dd>
             <input
@@ -254,7 +295,10 @@
         <!-- input for message START -->
         <dl>
           <dt>
-            <label for="contact-message">Meddelse: <span>*</span></label>
+            <label for="contact-message"
+              >Meddelse:
+              <span>*</span>
+            </label>
           </dt>
           <dd>
             <textarea
@@ -270,7 +314,10 @@
         <!-- input for date START -->
         <dl>
           <dt>
-            <label for="contact-date">Dato: <span>*</span></label>
+            <label for="contact-date"
+              >Dato:
+              <span>*</span>
+            </label>
           </dt>
           <dd><input type="date" name="date" id="contact-date" /></dd>
           <dd id="contact-date-error"></dd>
@@ -280,20 +327,24 @@
         <!-- input for time START -->
         <dl>
           <dt>
-            <label for="contact-time">Tid: <span>*</span></label>
-            <dd><input type="time" name="time" id="contact-time" /></dd>
-            <dd id="contact-time-error"></dd>
+            <label for="contact-time"
+              >Tid:
+              <span>*</span>
+            </label>
           </dt>
+          <dd><input type="time" name="time" id="contact-time" /></dd>
+          <dd id="contact-time-error"></dd>
         </dl>
         <!-- input for time END -->
 
         <!-- button submit START -->
-        <button id="contact-submit" name="submit" type="submit">Book møde</button>
+        <button id="contact-submit" name="submit" type="submit">
+          Book møde
+        </button>
         <!-- button submit END -->
       </form>
     </section>
     <!-- book moede END -->
-
     <!-- footer START -->
     <section class="footer"></section>
     <!-- footer END -->
