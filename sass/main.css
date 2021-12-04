@@ -160,6 +160,12 @@ nav ul {
   scroll-snap-align: start;
 }
 
+.section-projekt-1 {
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh;
+}
+
 .book-moede {
   background-color: yellow;
   padding-top: 100px;
