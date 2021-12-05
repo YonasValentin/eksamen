@@ -1,5 +1,5 @@
 // array of projekt 1
-const projekt1Array = [
+let projekt1Array = [
   {
     title: "Mark",
     quote: "Incididunt nostrud et minim in excepteur culpa anim.",
@@ -13,42 +13,47 @@ const projekt1Array = [
     image:
       "https://images.pexels.com/photos/9042872/pexels-photo-9042872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
+  {
+    title: "Morten",
+    quote:
+      "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
+    image:
+      "https://images.pexels.com/photos/10166802/pexels-photo-10166802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  },
 ];
 
+let projekt1PrevBtn = document.getElementById("section-projekt-1__prev-btn");
+let projekt1NextBtn = document.getElementById("section-projekt-1__next-btn");
+
+let projekt1Img = document.getElementById("section-projekt-1__img");
+let projekt1Title = document.getElementById("section-projekt-1__info-title");
+let projekt1Quote = document.getElementById("section-projekt-1__info-quote");
 // defindes the data-index to start
-const i = 0;
+let i = 0;
+let items = projekt1Array[i];
 
-function nextTitleQuoteImg() {
-  i = i + 1;
-  i = i % projekt1Array.length;
-  i++;
-  return projekt1Array[i];
-}
+projekt1Img.src = projekt1Array[i].image;
+projekt1Title.innerText = projekt1Array[i].title;
+projekt1Quote.innerText = projekt1Array[i].quote;
 
-function prevTitleQuoteImg() {
-  i = i - 1;
-  i = i % projekt1Array.length;
-  i--;
-  return projekt1Array[i];
-}
-
-const projekt1PrevBtn = document.getElementById("projekt-1__prev-button");
-const projekt1NextBtn = document.getElementById("projekt-1__next-button");
-
-projekt1NextBtn.addEventListener("click", function () {
-  document.getElementById("projekt-1__img-container").innerHTML =
-    projekt1Array[i].image;
-  document.getElementById("projekt-1__title").innerText =
-    projekt1Array[i].title;
-  document.getElementById("projekt-1__quote").innerText =
-    projekt1Array[i].quote;
-});
+projekt1Img.style.width = "100px";
 
 projekt1PrevBtn.addEventListener("click", function () {
-  document.getElementById("projekt-1__img-container").innerHTML =
-    projekt1Array[i].image;
-  document.getElementById("projekt-1__title").innerText =
-    projekt1Array[i].title;
-  document.getElementById("projekt-1__quote").innerText =
-    projekt1Array[i].quote;
+  i--;
+  if (i < projekt1Array.length - 1) {
+    i = 0;
+  }
+  projekt1Img.src = projekt1Array[i].image;
+  projekt1Title.innerText = projekt1Array[i].title;
+  projekt1Quote.innerText = projekt1Array[i].quote;
+});
+
+projekt1NextBtn.addEventListener("click", function () {
+  i++;
+  if (i > projekt1Array.length + 1) {
+    i = 0;
+  }
+  projekt1Img.src = projekt1Array[i].image;
+  projekt1Title.innerText = projekt1Array[i].title;
+  projekt1Quote.innerText = projekt1Array[i].quote;
 });
