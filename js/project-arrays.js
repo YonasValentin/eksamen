@@ -40,7 +40,7 @@ projekt1Img.style.width = "100px";
 
 projekt1PrevBtn.addEventListener("click", function () {
   i--;
-  if (i < projekt1Array.length - 1) {
+  if (i > projekt1Array.length - 1) {
     i = 0;
   }
   projekt1Img.src = projekt1Array[i].image;
