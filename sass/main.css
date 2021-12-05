@@ -38,6 +38,10 @@ button {
   background: none;
 }
 
+.section-projekt-1 {
+  padding-top: 300px;
+}
+
 @font-face {
   font-family: "Quicksand", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
@@ -158,12 +162,6 @@ nav ul {
   width: 100vw;
   height: 100vh;
   scroll-snap-align: start;
-}
-
-.section-projekt-1 {
-  padding-top: 100px;
-  width: 100vw;
-  height: 100vh;
 }
 
 .book-moede {
