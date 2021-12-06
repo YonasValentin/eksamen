@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* abstracts */
 /* Media Queries */
 /* display:flex | justify-content: space-between; | align-items: center */
@@ -157,11 +158,16 @@ nav ul {
 }
 
 .reparationer {
-  background-color: saddlebrown;
+  background-image: url("/images/Skærmbillede 2021-12-01 145905.png");
+  height: 100%;
   padding-top: 100px;
   width: 100vw;
   height: 100vh;
   scroll-snap-align: start;
+  /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .book-moede {

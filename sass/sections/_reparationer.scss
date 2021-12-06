@@ -1,5 +1,10 @@
 .reparationer {
-  background-color: saddlebrown;
+  background-image: url('/images/Skærmbillede\ 2021-12-01\ 145905.png');
+ height: 100%;
   @include section-dimensions;
   scroll-snap-align: start;
+   /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
