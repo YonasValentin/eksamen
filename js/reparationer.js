@@ -4,10 +4,12 @@ var images = [];
 var time = 3000;
 
 // Vores arrayliste af billede
-images[0] = 'billeder/i1.jpg'
-images[1] = 'billeder/i2.jpg'
-images[2] = 'billeder/i3.jpg'
-images[3] = 'billeder/i4.jpg'
+images[0] = 'images/IMG_1.jpg'
+images[1] = 'images/IMG_2.jpg'
+images[2] = 'images/IMG_3.jpg'
+images[3] = 'images/IMG_4.jpg'
+images[4] = 'images/IMG_5.jpg'
+images[5] = 'images/IMG_6.jpg'
 
 // Nu vil vi gerne lave en funktion, som skifter vores billeder med starstværdien 0(i)
 function changeImg(){
