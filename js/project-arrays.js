@@ -40,8 +40,8 @@ projekt1Img.style.width = "100px";
 
 projekt1PrevBtn.addEventListener("click", function () {
   i--;
-  if (i > projekt1Array.length - 1) {
-    i = 0;
+  if (i < 0) {
+    i = projekt1Array.length - 1;
   }
   projekt1Img.src = projekt1Array[i].image;
   projekt1Title.innerText = projekt1Array[i].title;
@@ -50,7 +50,7 @@ projekt1PrevBtn.addEventListener("click", function () {
 
 projekt1NextBtn.addEventListener("click", function () {
   i++;
-  if (i > projekt1Array.length + 1) {
+  if (projekt1Array.length < i + 1) {
     i = 0;
   }
   projekt1Img.src = projekt1Array[i].image;
