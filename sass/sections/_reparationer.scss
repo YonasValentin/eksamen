@@ -1,5 +1,5 @@
 .reparationer {
-  background-image: url('/images/Skærmbillede\ 2021-12-01\ 145905.png');
+  background-color: brown;
  height: 100%;
   @include section-dimensions;
   scroll-snap-align: start;
@@ -7,4 +7,24 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+h1{
+  position: relative;
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+.tekstbox{
+  display: block;
+  padding: 16px;
+  text-align: center;
+}
+p{
+  display: block;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  text-indent: 30px;
 }
