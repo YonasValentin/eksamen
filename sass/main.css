@@ -5,6 +5,11 @@
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
+/* modified colors 0.2 opacity */
+/* modified colors 0.3 opacity */
+/* modified colors 0.4 opacity */
+/* modified colors 0.5 opacity */
+/* modified colors 0.8 opacity */
 /* base */
 /* button animations */
 * {
@@ -35,12 +40,16 @@ button {
 
 .fa-chevron-right {
   padding: 20px;
-  background-color: #fff;
+  background-color: rgba(242, 242, 242, 0.8);
+  color: #261a18;
+  cursor: pointer;
 }
 
 .fa-chevron-left {
   padding: 20px;
-  background-color: #fff;
+  background-color: rgba(242, 242, 242, 0.8);
+  color: #261a18;
+  cursor: pointer;
 }
 
 @font-face {
@@ -94,10 +103,11 @@ nav {
 nav #nav-book-moede {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16.5px;
   color: #736558;
   padding: 1rem 5rem;
   border: 3px solid #736558;
+  letter-spacing: 1.5px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -129,9 +139,10 @@ nav ul {
 nav ul button {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16.5px;
   color: #736558;
   cursor: pointer;
+  letter-spacing: 1.5px;
 }
 
 nav ul button:hover {
@@ -162,7 +173,7 @@ nav ul button:hover {
 }
 
 .section-hero .section-hero__overlay {
-  background-color: rgba(38, 26, 24, 0.5);
+  background-color: rgba(38, 26, 24, 0.3);
   width: 100vw;
   height: 100vh;
   z-index: 1;
@@ -173,19 +184,16 @@ nav ul button:hover {
 .section-projekt-1 {
   width: 100vw;
   max-height: 100vh;
-  padding: 0;
-  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: hidden;
 }
 
 .section-projekt-1 img {
-  padding: 0;
-  margin: 0;
   width: 50vw;
   height: 100%;
   -o-object-fit: cover;
@@ -193,7 +201,6 @@ nav ul button:hover {
 }
 
 .section-projekt-1 .section-projekt-1__img-btn-container {
-  background-color: rgba(115, 101, 88, 0.3);
   width: 50vw;
   height: 100vh;
   position: absolute;
@@ -205,6 +212,7 @@ nav ul button:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: hidden;
 }
 
 .section-projekt-1 #section-projekt-1__info-container {
@@ -215,10 +223,10 @@ nav ul button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 23px;
+  gap: 25px;
   background-color: #736558;
   width: 50%;
-  padding: 25vh 10rem;
+  padding: 30vh 10rem;
 }
 
 .section-projekt-1 #section-projekt-1__info-container #section-projekt-1__info-title {
@@ -226,6 +234,7 @@ nav ul button:hover {
   font-weight: 400;
   font-size: 100px;
   color: #f2f2f2;
+  letter-spacing: 1.5px;
 }
 
 .section-projekt-1 #section-projekt-1__info-container #section-projekt-1__info-quote {
@@ -233,7 +242,7 @@ nav ul button:hover {
   font-weight: 300;
   font-size: 30px;
   color: #f2f2f2;
-  height: 220px;
+  letter-spacing: 1.5px;
 }
 
 .section-projekt-1 #section-projekt-1__info-container #section-projekt-1__info-watch-video {
@@ -242,26 +251,24 @@ nav ul button:hover {
   font-size: 15px;
   padding: 1rem 5rem;
   background-color: #f2f2f2;
-  color: #736558;
+  color: #261a18;
   cursor: pointer;
+  letter-spacing: 1.5px;
 }
 
 .section-projekt-2 {
   width: 100vw;
   max-height: 100vh;
-  padding: 0;
-  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: hidden;
 }
 
 .section-projekt-2 img {
-  padding: 0;
-  margin: 0;
   width: 50vw;
   height: 100%;
   -o-object-fit: cover;
@@ -269,11 +276,10 @@ nav ul button:hover {
 }
 
 .section-projekt-2 .section-projekt-2__img-btn-container {
-  background-color: rgba(115, 101, 88, 0.3);
   width: 50vw;
   height: 100vh;
   position: absolute;
-  top: 100vh;
+  top: 200vh;
   padding: 50vh 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -281,8 +287,7 @@ nav ul button:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: absolute;
-  top: 200vh;
+  overflow: hidden;
 }
 
 .section-projekt-2 #section-projekt-2__info-container {
@@ -293,10 +298,10 @@ nav ul button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 23px;
-  background-color: #736558;
+  gap: 25px;
+  background-color: #261a18;
   width: 50%;
-  padding: 25vh 10rem;
+  padding: 30vh 10rem;
 }
 
 .section-projekt-2 #section-projekt-2__info-container #section-projekt-2__info-title {
@@ -304,6 +309,7 @@ nav ul button:hover {
   font-weight: 400;
   font-size: 100px;
   color: #f2f2f2;
+  letter-spacing: 1.5px;
 }
 
 .section-projekt-2 #section-projekt-2__info-container #section-projekt-2__info-quote {
@@ -311,7 +317,7 @@ nav ul button:hover {
   font-weight: 300;
   font-size: 30px;
   color: #f2f2f2;
-  height: 220px;
+  letter-spacing: 1.5px;
 }
 
 .section-projekt-2 #section-projekt-2__info-container #section-projekt-2__info-watch-video {
@@ -320,36 +326,35 @@ nav ul button:hover {
   font-size: 15px;
   padding: 1rem 5rem;
   background-color: #f2f2f2;
-  color: #736558;
+  color: #261a18;
   cursor: pointer;
+  letter-spacing: 1.5px;
 }
 
 .section-projekt-3 {
   width: 100vw;
   max-height: 100vh;
-  padding: 0;
-  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: hidden;
 }
 
 .section-projekt-3 img {
-  padding: 0;
-  margin: 0;
   width: 50vw;
-  height: 100vh;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .section-projekt-3 .section-projekt-3__img-btn-container {
-  background-color: rgba(115, 101, 88, 0.3);
   width: 50vw;
   height: 100vh;
+  position: absolute;
+  top: 300vh;
   padding: 50vh 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -357,8 +362,7 @@ nav ul button:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: absolute;
-  top: 300vh;
+  overflow: hidden;
 }
 
 .section-projekt-3 #section-projekt-3__info-container {
@@ -369,10 +373,10 @@ nav ul button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 23px;
+  gap: 25px;
   background-color: #736558;
   width: 50%;
-  padding: 25vh 10rem;
+  padding: 30vh 10rem;
 }
 
 .section-projekt-3 #section-projekt-3__info-container #section-projekt-3__info-title {
@@ -380,6 +384,7 @@ nav ul button:hover {
   font-weight: 400;
   font-size: 100px;
   color: #f2f2f2;
+  letter-spacing: 1.5px;
 }
 
 .section-projekt-3 #section-projekt-3__info-container #section-projekt-3__info-quote {
@@ -387,7 +392,7 @@ nav ul button:hover {
   font-weight: 300;
   font-size: 30px;
   color: #f2f2f2;
-  height: 220px;
+  letter-spacing: 1.5px;
 }
 
 .section-projekt-3 #section-projekt-3__info-container #section-projekt-3__info-watch-video {
@@ -396,7 +401,8 @@ nav ul button:hover {
   font-size: 15px;
   padding: 1rem 5rem;
   background-color: #f2f2f2;
-  color: #736558;
+  color: #261a18;
   cursor: pointer;
+  letter-spacing: 1.5px;
 }
 /*# sourceMappingURL=main.css.map */
