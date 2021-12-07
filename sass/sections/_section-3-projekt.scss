@@ -1,4 +1,4 @@
-.section-projekt-1 {
+.section-projekt-3 {
   width: 100vw;
   max-height: 100vh;
   display: flex;
@@ -9,30 +9,30 @@
     height: 100%;
     object-fit: cover;
   }
-  .section-projekt-1__img-btn-container {
+  .section-projekt-3__img-btn-container {
     width: 50vw;
     height: 100vh;
     position: absolute;
-    top: 100vh;
+    top: 300vh;
     padding: 50vh 50px;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
   }
-  #section-projekt-1__info-container {
+  #section-projekt-3__info-container {
     display: flex;
     flex-direction: column;
     gap: 25px;
     background-color: $eksamen-2-hex;
     width: 50%;
     padding: 30vh 10rem;
-    #section-projekt-1__info-title {
+    #section-projekt-3__info-title {
       @include h1;
     }
-    #section-projekt-1__info-quote {
+    #section-projekt-3__info-quote {
       @include p;
     }
-    #section-projekt-1__info-watch-video {
+    #section-projekt-3__info-watch-video {
       @include video-button;
     }
   }

@@ -1,9 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-}
-body {
   box-sizing: border-box;
 }
 ul {
@@ -22,8 +19,15 @@ button {
   border: 0;
   background: none;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.fa-chevron-right {
+  padding: 20px;
+  background-color: $eksamen-hero-rgba-5-hex-0-8;
+  color: $eksamen-4-hex;
+  cursor: pointer;
+}
+.fa-chevron-left {
+  padding: 20px;
+  background-color: $eksamen-hero-rgba-5-hex-0-8;
+  color: $eksamen-4-hex;
+  cursor: pointer;
 }

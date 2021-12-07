@@ -3,3 +3,65 @@
   src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
   font-weight: 700, 600, 500, 400, 300;
 }
+
+/* h1 */
+@mixin h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  color: $eksamen-5-hex;
+  letter-spacing: 1.5px;
+}
+/* p */
+@mixin p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: $eksamen-5-hex;
+  letter-spacing: 1.5px;
+}
+/* nav ul buttons */
+@mixin nav-ul-buttons {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 16.5px;
+  color: $eksamen-2-hex;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  &:hover {
+    color: $eksamen-4-hex;
+  }
+}
+/* nav call-to-action button */
+@mixin nav-call-to-action-btn {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 16.5px;
+  color: $eksamen-2-hex;
+  padding: 1rem 5rem;
+  border: 3px solid $eksamen-2-hex;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  &:hover {
+    -webkit-transition: all 0.35s ease;
+    transition: all 0 35s ease;
+    background-color: $eksamen-2-hex;
+    color: $eksamen-5-hex;
+  }
+}
+
+/* video buttons */
+@mixin video-button {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 1rem 5rem;
+  background-color: $eksamen-5-hex;
+  color: $eksamen-4-hex;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}

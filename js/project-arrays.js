@@ -2,7 +2,8 @@
 let projekt1Array = [
   {
     title: "Mark",
-    quote: "Incididunt nostrud et minim in excepteur culpa anim.",
+    quote:
+      "Incididunt nostrud et minim in excepteur culpa anim.Id minim aliqua Lorem sunt.Fugiat magna enim labore pariatur non.Veniam deserunt tempor labore reprehenderit sunt aliquip voluptate aliqua laborum.",
     image:
       "https://images.pexels.com/photos/7883952/pexels-photo-7883952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
