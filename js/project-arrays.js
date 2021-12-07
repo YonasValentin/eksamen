@@ -4,7 +4,7 @@ let projekt1Array = [
     title: "Mark",
     quote: "Incididunt nostrud et minim in excepteur culpa anim.",
     image:
-      "https://images.pexels.com/photos/9824669/pexels-photo-9824669.jpeg?cs=srgb&dl=pexels-nikita-nikitin-9824669.jpg&fm=jpg",
+      "https://images.pexels.com/photos/7883952/pexels-photo-7883952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
   {
     title: "Rikke",
@@ -91,8 +91,6 @@ projekt2Img.src = projekt2Array[i].image;
 projekt2Title.innerText = projekt2Array[i].title;
 projekt2Quote.innerText = projekt2Array[i].quote;
 
-projekt2Img.style.width = "100px";
-
 projekt2PrevBtn.addEventListener("click", function () {
   i--;
   if (i < 0) {
@@ -148,8 +146,6 @@ let projekt3Quote = document.getElementById("section-projekt-3__info-quote");
 projekt3Img.src = projekt3Array[i].image;
 projekt3Title.innerText = projekt3Array[i].title;
 projekt3Quote.innerText = projekt3Array[i].quote;
-
-projekt3Img.style.width = "100px";
 
 projekt3PrevBtn.addEventListener("click", function () {
   i--;

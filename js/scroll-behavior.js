@@ -1,7 +1,7 @@
 // smooth scroll behavior on scroll
 $(document).ready(function () {
   $.scrollify({
-    section: "section",
+    section: ".scrollify-section",
     scrollSpeed: 1100,
   });
 });
