@@ -1,19 +1,11 @@
-.projekter {
-  background-color: orange;
+.section-projekt-1 {
   @include section-dimensions;
-  scroll-snap-align: start;
 }
-.oevrige-projekter {
-  margin-left: 50%;
-  width: 100%;
-  transform: translateX(-50%);
-  img {
-    width: 100px;
-  }
+
+.section-projekt-2 {
+  @include section-dimensions;
 }
-.oevrige-projekter__buttons-container {
-  display: flex;
-  gap: 50px;
-  margin-top: 50px;
-  margin-left: 50%;
+
+.section-projekt-3 {
+  @include section-dimensions;
 }

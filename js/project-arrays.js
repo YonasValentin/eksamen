@@ -35,8 +35,6 @@ projekt1Img.src = projekt1Array[i].image;
 projekt1Title.innerText = projekt1Array[i].title;
 projekt1Quote.innerText = projekt1Array[i].quote;
 
-projekt1Img.style.width = "100px";
-
 projekt1PrevBtn.addEventListener("click", function () {
   i--;
   if (i < 0) {
