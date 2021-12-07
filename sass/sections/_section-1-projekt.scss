@@ -25,12 +25,15 @@
     gap: 25px;
     background-color: $eksamen-2-hex;
     width: 50%;
-    padding: 30vh 10rem;
+    padding-top: 30vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
     #section-projekt-1__info-title {
       @include h1;
     }
     #section-projekt-1__info-quote {
       @include p;
+      height: 250px;
     }
     #section-projekt-1__info-watch-video {
       @include video-button;

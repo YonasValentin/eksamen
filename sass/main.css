@@ -226,7 +226,9 @@ nav ul button:hover {
   gap: 25px;
   background-color: #736558;
   width: 50%;
-  padding: 30vh 10rem;
+  padding-top: 30vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .section-projekt-1 #section-projekt-1__info-container #section-projekt-1__info-title {
@@ -243,6 +245,7 @@ nav ul button:hover {
   font-size: 30px;
   color: #f2f2f2;
   letter-spacing: 1.5px;
+  height: 250px;
 }
 
 .section-projekt-1 #section-projekt-1__info-container #section-projekt-1__info-watch-video {
@@ -301,7 +304,9 @@ nav ul button:hover {
   gap: 25px;
   background-color: #261a18;
   width: 50%;
-  padding: 30vh 10rem;
+  padding-top: 30vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .section-projekt-2 #section-projekt-2__info-container #section-projekt-2__info-title {
@@ -318,6 +323,7 @@ nav ul button:hover {
   font-size: 30px;
   color: #f2f2f2;
   letter-spacing: 1.5px;
+  height: 250px;
 }
 
 .section-projekt-2 #section-projekt-2__info-container #section-projekt-2__info-watch-video {
@@ -376,7 +382,9 @@ nav ul button:hover {
   gap: 25px;
   background-color: #736558;
   width: 50%;
-  padding: 30vh 10rem;
+  padding-top: 30vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .section-projekt-3 #section-projekt-3__info-container #section-projekt-3__info-title {
@@ -393,6 +401,7 @@ nav ul button:hover {
   font-size: 30px;
   color: #f2f2f2;
   letter-spacing: 1.5px;
+  height: 250px;
 }
 
 .section-projekt-3 #section-projekt-3__info-container #section-projekt-3__info-watch-video {
