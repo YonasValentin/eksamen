@@ -1,4 +1,4 @@
-.section-projekt-1 {
+.section-projekt-3 {
   width: 100vw;
   max-height: 100vh;
   padding: 0;
@@ -9,34 +9,34 @@
     padding: 0;
     margin: 0;
     width: 50vw;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
   }
-  .section-projekt-1__img-btn-container {
+  .section-projekt-3__img-btn-container {
     background-color: $eksamen-hero-rgba-2-hex-0-2;
     width: 50vw;
     height: 100vh;
-    position: absolute;
-    top: 100vh;
     padding: 50vh 50px;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: 300vh;
   }
-  #section-projekt-1__info-container {
+  #section-projekt-3__info-container {
     display: flex;
     flex-direction: column;
     gap: 23px;
     background-color: $eksamen-2-hex;
     width: 50%;
     padding: 25vh 10rem;
-    #section-projekt-1__info-title {
+    #section-projekt-3__info-title {
       @include h1;
     }
-    #section-projekt-1__info-quote {
+    #section-projekt-3__info-quote {
       @include p;
       height: 220px;
     }
-    #section-projekt-1__info-watch-video {
+    #section-projekt-3__info-watch-video {
       @include video-button;
     }
   }
