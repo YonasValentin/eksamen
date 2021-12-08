@@ -21,5 +21,48 @@
     z-index: 1;
     position: absolute;
     top: 0;
+    .section-hero__arrow {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      i {
+        position: absolute;
+        bottom: 0;
+        font-size: 35px;
+        color: $eksamen-5-hex;
+        margin-bottom: 60px;
+        animation: bounce 3s infinite;
+        @keyframes bounce {
+          0%,
+          10%,
+          20%,
+          30%,
+          40%,
+          50%,
+          60%,
+          70%,
+          80%,
+          90%,
+          100% {
+            transform: translateY(-45px);
+          }
+          90% {
+            transform: translateY(-30px);
+          }
+        }
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        color: $eksamen-5-hex;
+        font-family: "Quicksand", sans-serif;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 150px;
+        letter-spacing: 1.5px;
+        font-weight: 300;
+      }
+    }
   }
 }
