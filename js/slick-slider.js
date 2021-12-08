@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".oevrige-projekter").slick({
+  $(".section-reviews__inner-container").slick({
     centerMode: true,
     prevArrow: $(".prev"),
     nextArrow: $(".next"),

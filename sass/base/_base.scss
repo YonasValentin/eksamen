@@ -31,3 +31,9 @@ button {
   color: $eksamen-4-hex;
   cursor: pointer;
 }
+.next,
+.prev {
+  color: $eksamen-1-hex;
+  font-size: 30px;
+  background-color: $eksamen-4-hex;
+}
