@@ -2,15 +2,23 @@
   width: 100vw;
   max-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
+  @include media(">=tablet") {
+    flex-direction: row;
+  }
   img {
-    width: 50vw;
-    height: 100%;
+    width: 100%;
+    height: 300px;
     object-fit: cover;
+    @include media(">tablet") {
+      width: 50vw;
+      height: 100%;
+    }
   }
   .section-projekt-1__img-btn-container {
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
     position: absolute;
     top: 100vh;
@@ -18,16 +26,23 @@
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+    @include media(">=desktop") {
+      width: 50vw;
+    }
   }
   #section-projekt-1__info-container {
     display: flex;
     flex-direction: column;
     gap: 25px;
     background-color: $eksamen-2-hex;
-    width: 50%;
-    padding-top: 30vh;
+    width: 100vw;
+    padding-top: 10vh;
     padding-left: 10vw;
     padding-right: 10vw;
+    @include media(">=tablet") {
+      width: 50vw;
+      padding-top: 30vh;
+    }
     .section-projekt-1__arrow {
       cursor: pointer;
       display: flex;
