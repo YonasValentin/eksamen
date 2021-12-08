@@ -1,0 +1,324 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav {
+  height: 75px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  width: auto;
+  margin: 0;
+}
+
+.logoimg {
+  margin-left: 20px;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.links {
+  position: fixed;
+  width: 100%;
+  height: 0vh;
+  top: 75px;
+  background: #fff;
+  text-align: center;
+  transition: all 0.3s;
+  opacity: 1;
+  z-index: 800;
+}
+
+.links li {
+  opacity: 0;
+  line-height: 30px;
+  margin: 30px 0;
+  transition: all 0.3s;
+}
+
+.links li a {
+  color: #333;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  transition: 0.5s;
+}
+
+.burgericon {
+  display: block;
+  font-size: 30px;
+  color: #333;
+  line-height: 75px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.sbooknu {
+  border: 2px solid #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: brown;
+  transition: all 0.3s;
+}
+
+.links .booknu {
+  color: #fff;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .links {
+  height: 40vh;
+}
+
+#check:checked ~ .links li {
+  opacity: 1;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+}
+
+.hero .content {
+  z-index: 888;
+  color: #fff;
+  width: 70%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.hero .content h1 {
+  font-size: 4em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 75px;
+  margin-bottom: 40px;
+}
+
+.hero .content p {
+  margin-bottom: 65px;
+}
+
+.hero video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 20%;
+  opacity: 0.5;
+}
+
+.video-slide {
+  position: absolute;
+  max-width: 100%;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.boxes {
+  background-color: goldenrod;
+  margin-bottom: 60px;
+}
+
+.ommig h2 {
+  font-size: 30px;
+}
+
+.boximg {
+  height: 300px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url(/ReolKasperogMie.jpg);
+}
+
+.img-2 {
+  background-image: url(/detail.jpg);
+}
+
+.img-3 {
+  background-image: url(/ReolKasperogMie.jpg);
+}
+
+.boxes h3 {
+  padding: 10px;
+}
+
+.skills p {
+  padding: 10px;
+}
+
+.about {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.minekompetencer {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.box img {
+  height: auto;
+  width: 550px;
+  max-width: 100%;
+}
+
+.text {
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.info {
+  width: 1280px;
+  max-width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.text h2 {
+  font-size: 60px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.text h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.text p {
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+
+.button {
+  background-color: brown;
+  color: #fff;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: transparent;
+  border: 2px solid brown;
+  color: #333;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .boxes {
+    flex-basis: 45%;
+  }
+
+  .boximg {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /*--------menu bar--------*/
+
+  .logo {
+    margin-left: 25px;
+  }
+
+  .burgericon {
+    display: none;
+  }
+
+  .links {
+    height: 100px;
+    top: 0;
+    background: none;
+    transition: none;
+    opacity: 1;
+    padding-right: 20px;
+    text-align: right;
+  }
+
+  .links li {
+    display: inline-block;
+    opacity: 1;
+    line-height: 90px;
+    margin: 0 15px;
+    transition: none;
+    margin-top: 2px;
+    border: none;
+    padding-right: 5px;
+  }
+
+  .links li a {
+    font-size: 16px;
+  }
+
+  nav {
+    height: 90px;
+  }
+
+  .links .booknu {
+    border: 2px solid #333;
+    padding: 10px;
+    background: brown;
+    color: white;
+  }
+
+  .sbooknu {
+    background: none;
+  }
+
+  .logoimg {
+    margin: 10px;
+  }
+
+  .boxes {
+    flex-basis: 30%;
+    box-shadow: 10px 10px 10px lightgray;
+  }
+}

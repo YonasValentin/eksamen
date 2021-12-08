@@ -8,6 +8,7 @@
 
     <!-- css stylesheet START -->
     <link rel="stylesheet" href="/sass/main.css" />
+    <link rel="stylesheet" href="/minstyle.css" />
     <!-- css stylesheet END -->
 
     <!-- css slick-slider CDN stylesheet START -->
@@ -73,34 +74,45 @@
 
   <body class="container">
     <!-- navigation START -->
-    <nav>
-      <button id="nav-top">
-        <img src="logo.svg" alt="logo af max møbler" />
-      </button>
-      <ul>
-        <li>
-          <button id="nav-projekter">Projekter</button>
-        </li>
-        <li>
-          <button id="nav-om-os">Om os</button>
-        </li>
-        <li>
-          <button id="nav-reparationer">Reparationer</button>
-        </li>
-        <li>
-          <button id="nav-bobedre">Bo Bedre</button>
-        </li>
-      </ul>
-      <button id="nav-book-moede">Book møde</button>
-    </nav>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <img class="logoimg" src="boldlogo.jpg" alt="Logo" />
+        </div>
+        <input type="checkbox" id="check" />
+        <label for="check" class="burgericon">
+          <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="links">
+          <li><a class="aktiv" href="#Projekter">Projekter</a></li>
+          <li><a href="#OmMig">Om mig</a></li>
+          <li><a href="#Reperationer">Reperationer</a></li>
+          <li><a href="#Anmeldeser">Anmedelser</a></li>
+          <li class="sbooknu"><a class="booknu" href="#Booknu">Book nu</a></li>
+        </ul>
+      </nav>
+
+     
+    </header>
+
+  
     <!-- navigation END -->
 
     <!-- hero START -->
     <section id="section-hero" class="hero">
-      <dl>
-        <dt>hej</dt>
-        <dd></dd>
-      </dl>
+      <video
+      class="video-slide"
+      src="/seemless.mp4"
+      autoplay
+      muted
+      loop
+    ></video>
+    <div class="content active">
+      <h1>Max Moebel<br /><span></span></h1>
+      <p>Lorem ipsum dolor</p>
+    </div>
     </section>
     <!-- hero END -->
 
@@ -124,16 +136,57 @@
     <!-- first projekt END -->
 
     <section id="section-projekt-2">
-      <dl>
-        <dd><button></button></dd>
-        <dd><button></button></dd>
-      </dl>
-
-      <dl>
-        <dt></dt>
-        <dd></dd>
-        <dd><button></button></dd>
-      </dl>
+      <div class="about">
+        <div class="box">
+          <div class="info">
+            <img src="/maxbillede3.jpg" />
+            <div class="text">
+              <h2>Max Buthke</h2>
+              <h3>Profesionel snedkere</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem enim, ex ipsam quas perferendis, nesciunt
+                voluptates voluptatibus vero itaque harum nostrum at quam
+                eligendi, doloribus excepturi ut blanditiis illo optio!
+              </p>
+              <buttton class="button" type="button">Book en møde</buttton>
+            </div>
+          </div>
+        </div>
+  
+        <div class="minekompetencer">
+          <h2>Mine Kompetencer</h2>
+        </div>
+        <div class="skills">
+          <div class="boxes">
+            <div class="boximg img-1"></div>
+            <h3>Samarbejdsvillig</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              fugit ullam assumenda, voluptas aliquid eveniet enim ex lab
+            </p>
+          </div>
+  
+          <div class="boxes">
+            <div class="boximg img-2"></div>
+            <h3>Grundig og Præcis</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              fugit ullam assumenda, voluptas aliquid eveniet enim ex lab
+            </p>
+          </div>
+  
+          <div class="boxes">
+            <div class="boximg img-3"></div>
+            <h3>Kvalitetsbevidst</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              fugit ullam assumenda, voluptas aliquid eveniet enim ex lab
+            </p>
+          </div>
+        </div>
+      </div>
+  
     </section>
 
     <section id="section-projekt-3">
