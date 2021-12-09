@@ -34,16 +34,16 @@ navReparationer.addEventListener("click", function () {
   repurationerSection.scrollIntoView({ behavior: "smooth" });
 });
 
-// click on Bo Bedre -> scrool to Bo Bedre section
-const navBoBedre = document.getElementById("nav-bobedre");
+// click on anmeldelser -> scrool to anmeldelser section
+const navBoBedre = document.getElementById("nav-anmeldelser");
 navBoBedre.addEventListener("click", function () {
-  const boBedreSection = document.getElementById("section-bobedre");
+  const boBedreSection = document.getElementById("section-reviews");
   boBedreSection.scrollIntoView({ behavior: "smooth" });
 });
 
 // click on book møde -> scrool to book møde section
 const navBookMoede = document.getElementById("nav-book-moede");
-navBookMoede.addEventListener("click", function () {
-  const bookMoedeSection = document.getElementById("section-book-moede");
-  bookMoedeSection.scrollIntoView({ behavior: "smooth" });
+navTop.addEventListener("click", function () {
+  const heroSection = document.getElementById("section-book-moede");
+  heroSection.scrollIntoView({ behavior: "smooth" });
 });

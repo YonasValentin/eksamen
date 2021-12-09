@@ -83,13 +83,13 @@
       <ul>
         <li>
           <div class="dropdown">
-          <button id="nav-projekter" class="dropbtn">Projekter</button>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <button id="nav-projekter" class="dropbtn">Projekter</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
           </div>
-        </div>
         </li>
         <li>
           <button id="nav-om-os">Om os</button>
@@ -98,7 +98,7 @@
           <button id="nav-reparationer">Reparationer</button>
         </li>
         <li>
-          <button id="nav-bobedre">Bo Bedre</button>
+          <button id="nav-artikler">Artikler</button>
         </li>
         <li>
           <button id="nav-anmeldelser">Anmeldelser</button>
@@ -112,10 +112,15 @@
     <section class="section-hero" id="section-hero">
       <img
         class="section-hero__video"
-        src="https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        src="http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels-15.jpg"
         alt=""
       />
-      <div class="section-hero__overlay"></div>
+      <div class="section-hero__overlay">
+        <div class="section-hero__arrow">
+          <p>Scroll for mere</p>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
     </section>
     <!-- hero END -->
 
@@ -138,6 +143,10 @@
         <div id="section-projekt-1__info-video">
           <button id="section-projekt-1__info-watch-video">Se video</button>
         </div>
+        <div class="section-projekt-1__arrow">
+          <p>Scroll for næste projekt</p>
+          <i class="fas fa-chevron-down"></i>
+        </div>
       </div>
     </section>
     <!-- first projekt END -->
@@ -149,6 +158,10 @@
         <div id="section-projekt-2__info-quote"></div>
         <div id="section-projekt-2__info-video">
           <button id="section-projekt-2__info-watch-video">Se video</button>
+        </div>
+        <div class="section-projekt-2__arrow">
+          <p>Scroll for næste projekt</p>
+          <i class="fas fa-chevron-down"></i>
         </div>
       </div>
       <div class="section-projekt-2__img-container">
@@ -184,85 +197,177 @@
         <div id="section-projekt-3__info-video">
           <button id="section-projekt-3__info-watch-video">Se video</button>
         </div>
+        <div class="section-projekt-1__arrow">
+          <p>Scroll for øvrige projekt</p>
+          <i class="fas fa-chevron-down"></i>
+        </div>
       </div>
     </section>
     <!-- third projekt END -->
 
     <!-- øvrige projekter START -->
-    <!-- <section class="oevrige-projekter">
-      <dl>
-        <dt>
-          <img
-            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt=""
-          />
-        </dt>
+    <section class="section-oevrige-projekter"></section>
+    <!-- øvrige projekter END-->
 
-        <dt>Rikke</dt>
-        <dd>"Lorem, ipsum dolor"</dd>
-        <dd><button>Læs mere</button></dd>
-      </dl>
-      <dl>
-        <dt>
-          <img
-            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt=""
-          />
-        </dt>
+    <!-- om os START -->
+    <section id="section-om-os" class="om-os">
+      <div class="about">
+        <div class="box">
+          <div class="info">
+            <img src="/maxbillede3.jpg" />
+            <div class="text">
+              <h2>Max Buthke</h2>
+              <h3>Profesionel snedkere</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem enim, ex ipsam quas perferendis, nesciunt
+                voluptates voluptatibus vero itaque harum nostrum at quam
+                eligendi, doloribus excepturi ut blanditiis illo optio!
+              </p>
+              <buttton class="button" type="button">Book en møde</buttton>
+            </div>
+          </div>
+        </div>
 
-        <dt>Morten</dt>
-        <dd>"Lorem ipsum dolor"</dd>
-        <dd><button>Læs mere</button></dd>
-      </dl>
+        <div class="minekompetencer">
+          <h2>Mine Kompetencer</h2>
+        </div>
+        <div class="skills">
+          <div class="boxes">
+            <div class="boximg img-1"></div>
+            <h3>Samarbejdsvillig</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              fugit ullam assumenda, voluptas aliquid eveniet enim ex lab
+            </p>
+          </div>
 
-      <dl>
-        <dt>
-          <img
-            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt=""
-          />
-        </dt>
-        <dt>Mark</dt>
-        <dd>"Lorem ipsum dolor"</dd>
-        <dd><button>Læs mere</button></dd>
-      </dl>
+          <div class="boxes">
+            <div class="boximg img-2"></div>
+            <h3>Grundig og Præcis</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              fugit ullam assumenda, voluptas aliquid eveniet enim ex lab
+            </p>
+          </div>
 
-      <dl>
-        <dt>
-          <img
-            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt=""
-          />
-        </dt>
-        <dt>Rikke</dt>
-        <dd>"Lorem, ipsum dolor"</dd>
-        <dd><button>Læs mere</button></dd>
-      </dl>
+          <div class="boxes">
+            <div class="boximg img-3"></div>
+            <h3>Kvalitetsbevidst</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              fugit ullam assumenda, voluptas aliquid eveniet enim ex lab
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- om os END -->
 
-      <dl>
-        <dt>
-          <img
-            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt=""
-          />
-        </dt>
-        <dt>Morten</dt>
-        <dd>"Lorem ipsum dolor"</dd>
-        <dd><button>Læs mere</button></dd>
-      </dl>
+    <!-- anmeldelser START-->
+    <section id="section-reviews" class="section-reviews">
+      <div class="section-reviews__inner-container">
+        <div class="section-reviews__card">
+          <div class="section-reviews__pb-container">
+            <img
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+          </div>
+          <div class="section-reviews__text-container">
+            <h3>Rikke</h3>
+            <p>Ullamco elit non exercitation velit nostrud qui consectetur.</p>
+          </div>
+          <div class="section-reviews__stars-container">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
 
-      <dl>
-        <dt>
-          <img
-            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt=""
-          />
-        </dt>
-        <dt>Mark</dt>
-        <dd>"Lorem ipsum dolor"</dd>
-        <dd><button>Læs mere</button></dd>
-      </dl> -->
-    <!-- <div class="oevrige-projekter__buttons-container">
+        <div class="section-reviews__card">
+          <div class="section-reviews__pb-container">
+            <img
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+          </div>
+          <div class="section-reviews__text-container">
+            <h3>Rikke</h3>
+            <p>Ullamco elit non exercitation velit nostrud qui consectetur.</p>
+          </div>
+          <div class="section-reviews__stars-container">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+        <div class="section-reviews__card">
+          <div class="section-reviews__pb-container">
+            <img
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+          </div>
+          <div class="section-reviews__text-container">
+            <h3>Rikke</h3>
+            <p>Ullamco elit non exercitation velit nostrud qui consectetur.</p>
+          </div>
+          <div class="section-reviews__stars-container">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+        <div class="section-reviews__card">
+          <div class="section-reviews__pb-container">
+            <img
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+          </div>
+          <div class="section-reviews__text-container">
+            <h3>Rikke</h3>
+            <p>Ullamco elit non exercitation velit nostrud qui consectetur.</p>
+          </div>
+          <div class="section-reviews__stars-container">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+        <div class="section-reviews__card">
+          <div class="section-reviews__pb-container">
+            <img
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+          </div>
+          <div class="section-reviews__text-container">
+            <h3>Rikke</h3>
+            <p>Ullamco elit non exercitation velit nostrud qui consectetur.</p>
+          </div>
+          <div class="section-reviews__stars-container">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="section-reviews__btn-container">
         <button type="button" class="prev">
           <i class="fas fa-chevron-left"></i>
         </button>
@@ -270,10 +375,7 @@
           <i class="fas fa-chevron-right"></i>
         </button>
       </div>
-    </section> -->
-    <!-- om os START -->
-    <section id="section-om-os" class="om-os"></section>
-    <!-- om os END -->
+    </section>
 
     <!-- reparationer START -->
     <section id="section-reparationer" class="reparationer">
@@ -346,7 +448,7 @@
     <!-- reparationer END -->
 
     <!-- bo bedre START -->
-    <section id="section-bobedre" class="bo-bedre"></section>
+    <section id="section-artikler" class="artikler"></section>
     <!-- bo bedre END -->
 
     <!-- book møde START -->
@@ -492,9 +594,11 @@
       </form>
     </section>
     <!-- book moede END -->
+
     <!-- footer START -->
     <section class="footer"></section>
   
     <!-- footer END -->
+
   </body>
 </html>

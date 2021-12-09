@@ -1,0 +1,67 @@
+.section-reviews {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 35vh;
+  background-color: $eksamen-hero-rgba-2-hex-0-2;
+  .section-reviews__btn-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    .slick-arrow {
+      margin-top: 20px;
+      background-color: $eksamen-hero-rgba-2-hex-0-2;
+    }
+    .fa-chevron-right,
+    .fa-chevron-left {
+      color: $eksamen-hero-rgba-2-hex-0-7;
+    }
+  }
+  .section-reviews__card {
+    padding: 50px 50px;
+    background-color: $eksamen-hero-rgba-2-hex-0-4;
+    margin: 0 40px;
+
+    .section-reviews__pb-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid $eksamen-hero-rgba-2-hex-0-7;
+      }
+    }
+    .section-reviews__text-container {
+      h3 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        color: $eksamen-5-hex;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 1.5px;
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 10px;
+        color: $eksamen-5-hex;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 1.5px;
+      }
+    }
+    .section-reviews__stars-container {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      i {
+        color: $eksamen-hero-rgba-2-hex-0-7;
+      }
+    }
+  }
+}

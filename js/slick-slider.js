@@ -1,5 +1,6 @@
+// slider reviews
 $(document).ready(function () {
-  $(".oevrige-projekter").slick({
+  $(".section-reviews__inner-container").slick({
     centerMode: true,
     prevArrow: $(".prev"),
     nextArrow: $(".next"),
@@ -32,5 +33,24 @@ $(document).ready(function () {
         },
       },
     ],
+  });
+});
+
+// slider syncing
+$document.ready(function () {
+  $(".slider-for").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: ".slider-nav",
+  });
+  $(".slider-nav").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: ".slider-for",
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true,
   });
 });
