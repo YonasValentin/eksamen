@@ -5,21 +5,21 @@ let projekt1Array = [
     quote:
       "Incididunt nostrud et minim in excepteur culpa anim.Id minim aliqua Lorem sunt.Fugiat magna enim labore pariatur non.Veniam deserunt tempor labore reprehenderit sunt aliquip voluptate aliqua laborum.",
     image:
-      "https://images.pexels.com/photos/7883952/pexels-photo-7883952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels-16.jpg",
   },
   {
     title: "Rikke",
     quote:
       "Duis ea sint cillum qui eiusmod fugiat mollit voluptate cupidatat incididunt nulla nostrud.",
     image:
-      "https://images.pexels.com/photos/9042872/pexels-photo-9042872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels-12.jpg",
   },
   {
     title: "Morten",
     quote:
       "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
     image:
-      "https://images.pexels.com/photos/10166802/pexels-photo-10166802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels-10.jpg",
   },
 ];
 
@@ -63,21 +63,21 @@ let projekt2Array = [
     title: "Mark",
     quote: "Incididunt nostrud et minim in excepteur culpa anim.",
     image:
-      "https://images.pexels.com/photos/9824669/pexels-photo-9824669.jpeg?cs=srgb&dl=pexels-nikita-nikitin-9824669.jpg&fm=jpg",
+      "http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels-9.jpg",
   },
   {
     title: "Rikke",
     quote:
       "Duis ea sint cillum qui eiusmod fugiat mollit voluptate cupidatat incididunt nulla nostrud.",
     image:
-      "https://images.pexels.com/photos/9042872/pexels-photo-9042872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels-2.jpg",
   },
   {
     title: "Morten",
     quote:
       "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
     image:
-      "https://images.pexels.com/photos/10166802/pexels-photo-10166802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels-6.jpg",
   },
 ];
 
@@ -119,21 +119,21 @@ let projekt3Array = [
     title: "Mark",
     quote: "Incididunt nostrud et minim in excepteur culpa anim.",
     image:
-      "https://images.pexels.com/photos/9824669/pexels-photo-9824669.jpeg?cs=srgb&dl=pexels-nikita-nikitin-9824669.jpg&fm=jpg",
+      "http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels-18.jpg",
   },
   {
     title: "Rikke",
     quote:
       "Duis ea sint cillum qui eiusmod fugiat mollit voluptate cupidatat incididunt nulla nostrud.",
     image:
-      "https://images.pexels.com/photos/9042872/pexels-photo-9042872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels-1.jpg",
   },
   {
     title: "Morten",
     quote:
       "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
     image:
-      "https://images.pexels.com/photos/10166802/pexels-photo-10166802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "http://yonasvalentin.com/eksamen/Bo%20Bedre/F28x300N-_-2-5-_-LHS-Skagenhuset-MDB-Works-_-Foto-Claus-Troels.jpg",
   },
 ];
 
