@@ -307,7 +307,7 @@ nav ul button {
 
 /* Next & previous buttons */
 .slide_container .prev,
-.next {
+.slide_container .next {
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -382,7 +382,8 @@ nav ul button {
 
 p {
   text-align: center;
-=======
+}
+
 .section-hero .section-hero__overlay .section-hero__arrow {
   cursor: pointer;
   display: -webkit-box;
