@@ -44,22 +44,8 @@
   }
   
   /* Next & previous buttons */
+  .slide_container .prev, 
   .slide_container .next {
-    cursor: pointer;
-    position: relative;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-
-  .slide_container .prev {
     cursor: pointer;
     position: relative;
     top: 40%;
