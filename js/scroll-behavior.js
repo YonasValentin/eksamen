@@ -1,4 +1,3 @@
-// smooth scroll behavior on scroll
 $(document).ready(function () {
   $.scrollify({
     section: "section",
@@ -8,7 +7,8 @@ $(document).ready(function () {
 
 // click on logo -> scrool to hero section
 const navTop = document.getElementById("nav-top");
-navTop.addEventListener("click", function () {
+navTop.addEventListener("click", function (e) {
+  e.preventDefault();
   const heroSection = document.getElementById("section-hero");
   heroSection.scrollIntoView({ behavior: "smooth" });
 });
@@ -43,7 +43,7 @@ navBoBedre.addEventListener("click", function () {
 
 // click on book møde -> scrool to book møde section
 const navBookMoede = document.getElementById("nav-book-moede");
-navTop.addEventListener("click", function () {
+navBookMoede.addEventListener("click", function () {
   const heroSection = document.getElementById("section-book-moede");
   heroSection.scrollIntoView({ behavior: "smooth" });
 });
