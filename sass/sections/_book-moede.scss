@@ -1,0 +1,55 @@
+#section-book-moede {
+  display: grid;
+  align-content: end;
+  background-color: $eksamen-2-hex;
+  justify-content: center;
+  dl {
+    display: grid;
+    row-gap: 10px;
+    label {
+      color: $eksamen-5-hex;
+    }
+    dt {
+      display: grid;
+      margin: 0 auto;
+      color: $eksamen-5-hex;
+    }
+    dd {
+      input {
+        width: 70vw;
+        padding: 10px 10px;
+        margin: 0 auto;
+        display: grid;
+        border: 5px solid $eksamen-3-hex;
+        &::placeholder {
+          display: flex;
+          align-items: center;
+          text-align: center;
+        }
+      }
+      textarea {
+        width: 70vw;
+        background-color: $eksamen-5-hex;
+        padding: 10px 10px;
+        display: grid;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        border: 5px solid $eksamen-3-hex;
+        @include media(">=Stablet") {
+          height: 100px;
+        }
+        &::placeholder {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    }
+  }
+  button {
+    background-color: $eksamen-5-hex;
+    width: 100vw;
+    height: 50px;
+  }
+}
