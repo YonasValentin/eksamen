@@ -59,3 +59,9 @@ navTop.addEventListener("click", function () {
   const heroSection = document.getElementById("section-book-moede");
   heroSection.scrollIntoView({ behavior: "smooth" });
 });
+
+const navArtikler = document.getElementById("nav-artikler");
+navArtikler.addEventListener("click", function () {
+  const artiklerSection = document.getElementById("section-artikler");
+  artiklerSection.scrollIntoView({ behavior: "smooth" });
+});

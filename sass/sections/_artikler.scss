@@ -4,18 +4,17 @@
   padding-top: 25vh;
   background-color: $eksamen-hero-rgba-4-hex-0-2;
   .section-artikler__btn-container {
-    margin-top: 5px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
     .prev-artikler,
     .next-artikler {
-      padding: 10px;
       background-color: $eksamen-hero-rgba-2-hex-0-2;
     }
     .slick-arrow {
-      margin-top: 10px;
+      margin-top: 20px;
       background-color: $eksamen-hero-rgba-2-hex-0-2;
     }
     .fa-chevron-right,

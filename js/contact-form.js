@@ -5,8 +5,6 @@ const emailInputError = document.getElementById("contact-email-error");
 const phoneInputError = document.getElementById("contact-phone-error");
 const subjectInputError = document.getElementById("contact-subject-error");
 const messageInputError = document.getElementById("contact-message-error");
-const dateInputError = document.getElementById("contact-date-error");
-const timeInputError = document.getElementById("contact-time-error");
 
 // get form element
 const contactForm = document.getElementById("contact-form");
@@ -24,8 +22,6 @@ function validateFormData(event) {
   const phoneInput = formData.get("phone").trim();
   const subjectInput = formData.get("subject").trim();
   const messageInput = formData.get("message").trim();
-  const dateInput = formData.get("date");
-  const timeInput = formData.get("time");
 
   // check if all fields are valid
   if (
@@ -33,9 +29,7 @@ function validateFormData(event) {
     !emailInput ||
     !phoneInput ||
     !subjectInput ||
-    !messageInput ||
-    !dateInput ||
-    !timeInput
+    !messageInput
   ) {
     contactFormError.innerText = "Venligst udfyld alle felterne";
     // execute fetch POST method to formsubmit
@@ -144,19 +138,5 @@ function validateFormData(event) {
     // if message is entered and valid, then remove error message
   } else {
     messageInputError.innerText = "";
-  }
-  // check if date input field is entered
-  if (!dateInput) {
-    dateInputError.innerText = "Dato er påkrævet";
-    // if date is entered, then remove error message
-  } else {
-    dateInputError.innerText = "";
-  }
-  // check if time input field is entered
-  if (!timeInput) {
-    timeInputError.innerText = "Tid er påkrævet";
-    // if time is entered, then remove error
-  } else {
-    timeInputError.innerText = "";
   }
 }
