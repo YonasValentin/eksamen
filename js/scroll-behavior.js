@@ -73,9 +73,9 @@ navBoBedre.addEventListener("click", function () {
 
 // click on book møde -> scrool to book møde section
 const navBookMoede = document.getElementById("nav-book-moede");
-navTop.addEventListener("click", function () {
-  const heroSection = document.getElementById("section-book-moede");
-  heroSection.scrollIntoView({ behavior: "smooth" });
+navBookMoede.addEventListener("click", function () {
+  const bookMoedeSection = document.getElementById("section-book-moede");
+  bookMoedeSection.scrollIntoView({ behavior: "smooth" });
 });
 
 const navArtikler = document.getElementById("nav-artikler");
