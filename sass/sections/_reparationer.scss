@@ -1,5 +1,8 @@
 .reparationer{
     background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .slide_container {
     .mySlides{
@@ -114,6 +117,6 @@
       text-align: center;
       padding-top: 100px;
   }
-  .text{
+  .reparationer{
       text-align: center;
   }
