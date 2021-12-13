@@ -1,5 +1,9 @@
-.reparationer {
-  background-color: blanchedalmond;
+
+.reparationer{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .slide_container {
   .mySlides {
@@ -19,6 +23,7 @@
       }
     }
   }
+
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -114,3 +119,4 @@
 .text {
   text-align: center;
 }
+
