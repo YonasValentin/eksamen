@@ -1,60 +1,59 @@
 // array of projekt 1
 let projekt1Array = [
   {
-    title: "Mark",
+    title: "Walk in closet",
     quote:
-      "Incididunt nostrud et minim in excepteur culpa anim.Id minim aliqua Lorem sunt.Fugiat magna enim labore pariatur non.Veniam deserunt tempor labore reprehenderit sunt aliquip voluptate aliqua laborum.",
+      "Mark fik specialdesignet et lille walk in closet, hvilket har været et af hans størte ønsker at få bygget til hans lækre lejlighed.",
     image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_0361.png",
-    altText: "",
+    altText: "Billede af Mark, som har fået lavet et lille walk in closet",
   },
   {
-    title: "Rikke",
+    title: "Luksus walk in closet",
     quote:
-      "Duis ea sint cillum qui eiusmod fugiat mollit voluptate cupidatat incididunt nulla nostrud.",
+      "Dette lille walk in closet er bygget i bambus, hvilket både er bæredygtigt og kan holde i mange år.",
     image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_0364.png",
-    altText: "",
+    altText: "Luksus walk in closet",
   },
   {
-    title: "Morten",
+    title: "Indretning af walk in closet",
     quote:
-      "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
+      "Max rådgav Mark med indretning af hans walk in closet, hvilket Mark fandt enormt prisværdigt.",
     image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_0380.png",
-    altText: "",
+    altText: "Indretning af walk in closet",
   },
   {
-    title: "Morten",
+    title: "Walk in closet inspiration",
     quote:
-      "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
+      "Max gav Mark en række idéer til inspiration af hans walk in closet.",
     image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_0396.png",
-    altText: "",
+    altText: "Walk in closet inspiration",
   },
   {
-    title: "Morten",
+    title: "Hylder på mål",
     quote:
-      "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
+      "Mark fik lavet disse lækre hylder på mål, så skabet blev helt som Mark gerne ville have det.",
     image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_0392.png",
-    altText: "",
+    altText: "Hylder på mål",
   },
   {
-    title: "Morten",
+    title: "Gammel dør",
     quote:
-      "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
+      "Max gav nyt liv til en ellers gammel dør, som mange ellers ville have kasseret",
     image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_0383.png",
-    altText: "",
+    altText: "Gammel dør",
   },
   {
-    title: "Morten",
-    quote:
-      "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
+    title: "Maling af døre",
+    quote: "Max køber udelukkende kvalitetsmalig til maling af døre.",
     image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_0384.png",
-    altText: "",
+    altText: "Maling af døre",
   },
   {
-    title: "Morten",
+    title: "Bænk med opbevaring",
     quote:
-      "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
+      "Mark fik udover sit lille walk in closet lavet en smart bænk med opbevaring.",
     image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_0407.png",
-    altText: "",
+    altText: "Bænk med opbevaring",
   },
 ];
 
@@ -188,23 +187,21 @@ let projekt3Array = [
     title: "Rikke",
     quote:
       "Duis ea sint cillum qui eiusmod fugiat mollit voluptate cupidatat incididunt nulla nostrud.",
-    image: "http://yonasvalentin.com/eksamen/billeder-optimeret/02-joinery.png",
+    image: "http://yonasvalentin.com/eksamen/billeder-optimeret/DSC04860.png",
     altText: "",
   },
   {
     title: "Morten",
     quote:
       "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
-    image:
-      "http://yonasvalentin.com/eksamen/billeder-optimeret/a50a7bda34fe5898e332150c64c08ab8.png",
+    image: "http://yonasvalentin.com/eksamen/billeder-optimeret/DSC04863.png",
     altText: "",
   },
   {
     title: "Morten",
     quote:
       "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
-    image:
-      "http://yonasvalentin.com/eksamen/billeder-optimeret/a50a7bda34fe5898e332150c64c08ab8.png",
+    image: "http://yonasvalentin.com/eksamen/billeder-optimeret/DSC04883.png",
     altText: "",
   },
 ];
@@ -249,24 +246,21 @@ let projekt4Array = [
   {
     title: "Mark",
     quote: "Incididunt nostrud et minim in excepteur culpa anim.",
-    image:
-      "https://images.pexels.com/photos/9824669/pexels-photo-9824669.jpeg?cs=srgb&dl=pexels-nikita-nikitin-9824669.jpg&fm=jpg",
+    image: "http://yonasvalentin.com/eksamen/billeder-optimeret/DSC_0241.png",
     altText: "",
   },
   {
     title: "Rikke",
     quote:
       "Duis ea sint cillum qui eiusmod fugiat mollit voluptate cupidatat incididunt nulla nostrud.",
-    image:
-      "https://images.pexels.com/photos/9042872/pexels-photo-9042872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_4368.png",
     altText: "",
   },
   {
     title: "Morten",
     quote:
       "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
-    image:
-      "https://images.pexels.com/photos/10166802/pexels-photo-10166802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    image: "http://yonasvalentin.com/eksamen/billeder-optimeret/IMG_7588.png",
     altText: "",
   },
 ];
