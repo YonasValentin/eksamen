@@ -22,18 +22,17 @@ button {
 .fa-chevron-right {
   padding: 20px;
   background-color: $eksamen-hero-rgba-5-hex-0-8;
-  color: $eksamen-4-hex;
+  color: $eksamen-hero-rgba-2-hex-0-7;
   cursor: pointer;
 }
 .fa-chevron-left {
   padding: 20px;
   background-color: $eksamen-hero-rgba-5-hex-0-8;
-  color: $eksamen-4-hex;
+  color: $eksamen-hero-rgba-2-hex-0-7;
   cursor: pointer;
 }
 .next,
 .prev {
   color: $eksamen-1-hex;
-  font-size: 30px;
   background-color: $eksamen-4-hex;
 }
