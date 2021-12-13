@@ -263,126 +263,6 @@ nav ul button {
   top: 0;
 }
 
-
-.reparationer {
-  background-color: blanchedalmond;
-}
-
-.slide_container .mySlides img {
-  vertical-align: middle;
-  width: 100%;
-  height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.slide_container .row .column img {
-  width: 100px;
-  height: 100px;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.slide_container {
-  position: relative;
-  width: 50%;
-  margin: 0 auto;
-  top: 20px;
-  overflow: hidden;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.slide_container .prev,
-.slide_container .next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-.overskrift1 {
-  text-align: center;
-  padding-top: 100px;
-}
-
-p {
-  text-align: center;
-}
 .section-hero .section-hero__overlay .section-hero__arrow {
   cursor: pointer;
   display: -webkit-box;
@@ -460,6 +340,126 @@ p {
   margin-bottom: 90px;
   letter-spacing: 1.5px;
   font-weight: 300;
+}
+
+.reparationer {
+  background-color: blanchedalmond;
+}
+
+.slide_container .mySlides img {
+  vertical-align: middle;
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slide_container .row .column img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.slide_container {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  top: 20px;
+  overflow: hidden;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.slide_container .prev,
+.slide_container .next {
+  cursor: pointer;
+  position: relative;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.slide_container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slide_container .prev:hover,
+.slide_container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.overskrift1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.text {
+  text-align: center;
 }
 
 .section-projekt-1 {
@@ -1278,5 +1278,351 @@ p {
 
 .section-reviews .section-reviews__card .section-reviews__stars-container i {
   color: rgba(115, 101, 88, 0.7);
+}
+
+#section-artikler {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 25vh;
+  background-color: rgba(38, 26, 24, 0.2);
+}
+
+#section-artikler .section-artikler__btn-container {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+
+#section-artikler .section-artikler__btn-container .prev-artikler,
+#section-artikler .section-artikler__btn-container .next-artikler {
+  padding: 10px;
+  background-color: rgba(115, 101, 88, 0.2);
+}
+
+#section-artikler .section-artikler__btn-container .slick-arrow {
+  margin-top: 10px;
+  background-color: rgba(115, 101, 88, 0.2);
+}
+
+#section-artikler .section-artikler__btn-container .fa-chevron-right,
+#section-artikler .section-artikler__btn-container .fa-chevron-left {
+  color: rgba(115, 101, 88, 0.7);
+}
+
+#section-artikler .section-artikler__card {
+  background-color: rgba(115, 101, 88, 0.4);
+  display: -ms-grid;
+  display: grid;
+  margin: 0 10px;
+  height: 350px;
+}
+
+@media (min-width: 550px) {
+  #section-artikler .section-artikler__card {
+    height: 450px;
+  }
+}
+
+#section-artikler .section-artikler__card .section-artikler__pb-container {
+  height: 200px;
+}
+
+@media (min-width: 550px) {
+  #section-artikler .section-artikler__card .section-artikler__pb-container {
+    height: 300px;
+  }
+}
+
+#section-artikler .section-artikler__card .section-artikler__pb-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#section-artikler .section-artikler__card .section-artikler__text-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+#section-artikler .section-artikler__card .section-artikler__text-container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f2f2f2;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1.5px;
+  padding: 20px 10px;
+  background-color: #f2f2f2;
+  color: #261a18;
+  width: 100%;
+}
+
+#section-artikler .section-artikler__card .section-artikler__text-container p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #f2f2f2;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1.5px;
+  padding: 0 10px;
+}
+
+.section-projekt-4 {
+  width: 100vw;
+  max-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+@media (min-width: 950px) {
+  .section-projekt-4 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.section-projekt-4 img {
+  width: 100vw;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 951px) {
+  .section-projekt-4 img {
+    width: 50vw;
+    height: 100%;
+  }
+}
+
+.section-projekt-4 .section-projekt-4__img-btn-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 380vh;
+  padding: 50vh 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+@media (min-width: 950px) {
+  .section-projekt-4 .section-projekt-4__img-btn-container {
+    width: 50vw;
+    top: 400vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-projekt-4 .section-projekt-4__img-btn-container {
+    width: 50vw;
+    top: 400vh;
+  }
+}
+
+.section-projekt-4 #section-projekt-4__info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #261a18;
+  width: 100vw;
+  height: 100%;
+}
+
+@media (min-width: 950px) {
+  .section-projekt-4 #section-projekt-4__info-container {
+    width: 50vw;
+  }
+}
+
+.section-projekt-4 #section-projekt-4__info-container .section-projekt-4__arrow {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-projekt-4 #section-projekt-4__info-container .section-projekt-4__arrow i {
+  position: absolute;
+  bottom: -395vh;
+  font-size: 15px;
+  color: #bfa08e;
+  -webkit-animation: bounce 3s infinite;
+          animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  10%,
+  20%,
+  30%,
+  40%,
+  50%,
+  60%,
+  70%,
+  80%,
+  90%,
+  100% {
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+  }
+  90% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+}
+
+.section-projekt-4 #section-projekt-4__info-container .section-projekt-4__arrow p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+  color: #bfa08e;
+  font-family: "Quicksand", sans-serif;
+  position: absolute;
+  bottom: -386vh;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+}
+
+.section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-title {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Quicksand", sans-serif;
+  color: #f2f2f2;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+}
+
+@media (min-width: 550px) {
+  .section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-title {
+    font-size: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 950px) {
+  .section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-title {
+    margin-top: 250px;
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    color: #f2f2f2;
+    letter-spacing: 1.5px;
+  }
+}
+
+.section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-quote {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #f2f2f2;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+}
+
+@media (min-width: 550px) {
+  .section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-quote {
+    padding-left: 60px;
+    padding-right: 200px;
+  }
+}
+
+@media (min-width: 950px) {
+  .section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-quote {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #f2f2f2;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+    padding-right: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-quote {
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-quote {
+    padding-right: 200px;
+  }
+}
+
+.section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-watch-video {
+  letter-spacing: 1.5px;
+  position: absolute;
+  width: 100%;
+  bottom: -400vh;
+  padding: 20px 5px;
+  background-color: #f2f2f2;
+  color: #261a18;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Quicksand", sans-serif;
+}
+
+@media (min-width: 950px) {
+  .section-projekt-4 #section-projekt-4__info-container #section-projekt-4__info-watch-video {
+    width: 50vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */

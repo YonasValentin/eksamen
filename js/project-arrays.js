@@ -167,3 +167,59 @@ projekt3NextBtn.addEventListener("click", function () {
   projekt3Title.innerText = projekt3Array[i].title;
   projekt3Quote.innerText = projekt3Array[i].quote;
 });
+
+// array of øvrige projekter
+
+let projekt4Array = [
+  {
+    title: "Mark",
+    quote: "Incididunt nostrud et minim in excepteur culpa anim.",
+    image:
+      "https://images.pexels.com/photos/9824669/pexels-photo-9824669.jpeg?cs=srgb&dl=pexels-nikita-nikitin-9824669.jpg&fm=jpg",
+  },
+  {
+    title: "Rikke",
+    quote:
+      "Duis ea sint cillum qui eiusmod fugiat mollit voluptate cupidatat incididunt nulla nostrud.",
+    image:
+      "https://images.pexels.com/photos/9042872/pexels-photo-9042872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  },
+  {
+    title: "Morten",
+    quote:
+      "Consectetur eiusmod laborum veniam dolore consequat mollit exercitation officia exercitation ex laboris enim.",
+    image:
+      "https://images.pexels.com/photos/10166802/pexels-photo-10166802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  },
+];
+
+let projekt4PrevBtn = document.getElementById("section-projekt-4__prev-btn");
+let projekt4NextBtn = document.getElementById("section-projekt-4__next-btn");
+
+let projekt4Img = document.getElementById("section-projekt-4__img");
+let projekt4Title = document.getElementById("section-projekt-4__info-title");
+let projekt4Quote = document.getElementById("section-projekt-4__info-quote");
+
+projekt4Img.src = projekt4Array[i].image;
+projekt4Title.innerText = projekt4Array[i].title;
+projekt4Quote.innerText = projekt4Array[i].quote;
+
+projekt4PrevBtn.addEventListener("click", function () {
+  i--;
+  if (i < 0) {
+    i = projekt3Array.length - 1;
+  }
+  projekt4Img.src = projekt4Array[i].image;
+  projekt4Title.innerText = projekt4Array[i].title;
+  projekt4Quote.innerText = projekt4Array[i].quote;
+});
+
+projekt4NextBtn.addEventListener("click", function () {
+  i++;
+  if (projekt4Array.length < i + 1) {
+    i = 0;
+  }
+  projekt4Img.src = projekt4Array[i].image;
+  projekt4Title.innerText = projekt4Array[i].title;
+  projekt4Quote.innerText = projekt4Array[i].quote;
+});

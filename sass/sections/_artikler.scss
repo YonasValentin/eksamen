@@ -29,13 +29,13 @@
     margin: 0 10px;
     height: 350px;
     @include media(">=Stablet") {
-      height: 600px;
+      height: 450px;
     }
 
     .section-artikler__pb-container {
       height: 200px;
       @include media(">=Stablet") {
-        height: 400px;
+        height: 300px;
       }
       img {
         width: 100%;
@@ -57,7 +57,6 @@
         background-color: $eksamen-5-hex;
         color: $eksamen-4-hex;
         width: 100%;
-        @include p-mobile;
       }
       p {
         display: flex;
@@ -66,7 +65,6 @@
         color: $eksamen-5-hex;
         font-family: "Quicksand", sans-serif;
         letter-spacing: 1.5px;
-        @include p-mobile;
         padding: 0 10px;
       }
     }
