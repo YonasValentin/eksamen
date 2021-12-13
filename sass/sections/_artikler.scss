@@ -1,0 +1,74 @@
+#section-artikler {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 25vh;
+  background-color: $eksamen-hero-rgba-4-hex-0-2;
+  .section-artikler__btn-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    .prev-artikler,
+    .next-artikler {
+      padding: 10px;
+      background-color: $eksamen-hero-rgba-2-hex-0-2;
+    }
+    .slick-arrow {
+      margin-top: 10px;
+      background-color: $eksamen-hero-rgba-2-hex-0-2;
+    }
+    .fa-chevron-right,
+    .fa-chevron-left {
+      color: $eksamen-hero-rgba-2-hex-0-7;
+    }
+  }
+  .section-artikler__card {
+    background-color: $eksamen-hero-rgba-2-hex-0-4;
+    display: grid;
+    margin: 0 10px;
+    height: 350px;
+    @include media(">=Stablet") {
+      height: 600px;
+    }
+
+    .section-artikler__pb-container {
+      height: 200px;
+      @include media(">=Stablet") {
+        height: 400px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .section-artikler__text-container {
+      display: grid;
+      align-content: space-between;
+      a {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: $eksamen-5-hex;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 1.5px;
+        padding: 20px 10px;
+        background-color: $eksamen-5-hex;
+        color: $eksamen-4-hex;
+        width: 100%;
+        @include p-mobile;
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: $eksamen-5-hex;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 1.5px;
+        @include p-mobile;
+        padding: 0 10px;
+      }
+    }
+  }
+}
