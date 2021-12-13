@@ -13,6 +13,18 @@ navTop.addEventListener("click", function () {
   heroSection.scrollIntoView({ behavior: "smooth" });
 });
 
+// click on hero arrow -> scrool to section projekt 1
+const heroArrowDown = document.querySelector(".section-hero__arrow");
+heroArrowDown.addEventListener("click", function () {
+  const projekt1Section = document.querySelector(".section-projekt-1");
+  projekt1Section.scrollIntoView({ behavior: "smooth" });
+});
+const projekt1ArrowDown = document.querySelector(".section-projekt-1__arrow");
+projekt1ArrowDown.addEventListener("click", function () {
+  const projekt2Section = document.querySelector(".section-projekt-2");
+  projekt2Section.scrollIntoView({ behavior: "smooth" });
+});
+
 // click on projekter -> scrool to projekter section
 const navProjekter = document.getElementById("nav-projekter");
 navProjekter.addEventListener("click", function () {

@@ -32,6 +32,7 @@
         color: $eksamen-5-hex;
         margin-bottom: 10px;
         animation: bounce 3s infinite;
+        cursor: pointer;
         @keyframes bounce {
           0%,
           10%,
@@ -62,6 +63,7 @@
         margin-bottom: 90px;
         letter-spacing: 1.5px;
         font-weight: 300;
+        cursor: pointer;
       }
     }
   }
