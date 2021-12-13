@@ -28,9 +28,15 @@ nav {
       justify-content: space-between;
       align-items: center;
       gap: 40px;
+      li {
+        button {
+          color: #261a18;
+        }
+      }
     }
     button {
       display: none;
+      color: #261a18;
       @include media(">=desktop") {
         @include nav-ul-buttons;
         display: flex;
@@ -42,7 +48,6 @@ nav {
   }
 }
 .dropbtn {
-
   padding: 16px;
   font-size: 16px;
   border: none;

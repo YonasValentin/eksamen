@@ -37,9 +37,9 @@
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
   font-size: 16.5px;
-  color: $eksamen-2-hex;
+  color: #261a18;
   padding: 1rem 5rem;
-  border: 3px solid $eksamen-2-hex;
+  border: 3px solid #261a18;
   letter-spacing: 1.5px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -49,7 +49,7 @@
   &:hover {
     -webkit-transition: all 0.35s ease;
     transition: all 0 35s ease;
-    background-color: $eksamen-2-hex;
+    background-color: #261a18;
     color: $eksamen-5-hex;
   }
 }

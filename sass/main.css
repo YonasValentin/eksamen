@@ -123,9 +123,9 @@ nav #nav-book-moede {
     font-family: "Quicksand", sans-serif;
     font-weight: 300;
     font-size: 16.5px;
-    color: #736558;
+    color: #261a18;
     padding: 1rem 5rem;
-    border: 3px solid #736558;
+    border: 3px solid #261a18;
     letter-spacing: 1.5px;
     cursor: pointer;
     -webkit-transition: all 0.5s ease;
@@ -137,7 +137,7 @@ nav #nav-book-moede {
     -webkit-transition: all 0.35s ease;
     -webkit-transition: all 0 35s ease;
     transition: all 0 35s ease;
-    background-color: #736558;
+    background-color: #261a18;
     color: #f2f2f2;
   }
 }
@@ -159,10 +159,14 @@ nav ul {
             align-items: center;
     gap: 40px;
   }
+  nav ul li button {
+    color: #261a18;
+  }
 }
 
 nav ul button {
   display: none;
+  color: #261a18;
 }
 
 @media (min-width: 1200px) {
@@ -344,6 +348,15 @@ nav ul button {
 
 .reparationer {
   background-color: blanchedalmond;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .slide_container .mySlides img {
@@ -1165,7 +1178,7 @@ nav ul button {
   }
 }
 
-.section-projekt-3 #section-projekt-3__info-container .section-projekt-1__arrow {
+.section-projekt-3 #section-projekt-3__info-container .section-projekt-3__arrow {
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1175,7 +1188,7 @@ nav ul button {
           justify-content: center;
 }
 
-.section-projekt-3 #section-projekt-3__info-container .section-projekt-1__arrow i {
+.section-projekt-3 #section-projekt-3__info-container .section-projekt-3__arrow i {
   position: absolute;
   bottom: -295vh;
   font-size: 15px;
@@ -1205,7 +1218,7 @@ nav ul button {
   }
 }
 
-.section-projekt-3 #section-projekt-3__info-container .section-projekt-1__arrow p {
+.section-projekt-3 #section-projekt-3__info-container .section-projekt-3__arrow p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

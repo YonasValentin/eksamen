@@ -19,10 +19,28 @@ heroArrowDown.addEventListener("click", function () {
   const projekt1Section = document.querySelector(".section-projekt-1");
   projekt1Section.scrollIntoView({ behavior: "smooth" });
 });
+
 const projekt1ArrowDown = document.querySelector(".section-projekt-1__arrow");
 projekt1ArrowDown.addEventListener("click", function () {
   const projekt2Section = document.querySelector(".section-projekt-2");
   projekt2Section.scrollIntoView({ behavior: "smooth" });
+});
+const projekt2ArrowDown = document.querySelector(".section-projekt-2__arrow");
+projekt2ArrowDown.addEventListener("click", function () {
+  const project3Section = document.querySelector(".section-projekt-3");
+  project3Section.scrollIntoView({ behavior: "smooth" });
+});
+
+const projekt3ArrowDown = document.querySelector(".section-projekt-3__arrow");
+projekt3ArrowDown.addEventListener("click", function () {
+  const project4Section = document.querySelector(".section-projekt-4");
+  project4Section.scrollIntoView({ behavior: "smooth" });
+});
+
+const projekt4ArrowDown = document.querySelector(".section-projekt-4__arrow");
+projekt4ArrowDown.addEventListener("click", function () {
+  const projektOmOsSection = document.getElementById("section-om-os");
+  projektOmOsSection.scrollIntoView({ behavior: "smooth" });
 });
 
 // click on projekter -> scrool to projekter section
